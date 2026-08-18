@@ -1,0 +1,11 @@
+{
+  "name": "alice-gameland-distribution",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "verify": "node scripts/verify.mjs"
+  }
+}
+

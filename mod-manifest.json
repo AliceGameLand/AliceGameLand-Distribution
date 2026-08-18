@@ -1,0 +1,100 @@
+[
+  {
+    "file": "camera-neoforge-1.1.9+26.2.jar",
+    "license": "All Rights Reserved",
+    "source": "https://mediafilez.forgecdn.net/files/8657/137/camera-neoforge-1.1.9%2B26.2.jar",
+    "sha1": "d971347b86b35ecc4c98622efd0223961da0bc1a",
+    "sha256": "c5f875d7b5f69f77b7061d93ef4284f11ad765ce15729aea4f5a1ec91ca4821b"
+  },
+  {
+    "file": "cloth-config-26.2.155.jar",
+    "license": "LGPL-3.0",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar",
+    "sha1": "6ea13f34b0fcdcc9299b766efa199dcc7cb73878",
+    "sha256": "650cdc79fcb3332dd08d75634443b93b012dba49b748359a4a97f0975bc55c31"
+  },
+  {
+    "file": "cushionbackport-26.2-NeoForge-1.0.5.jar",
+    "license": "MIT",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cushionbackport-26.2-NeoForge-1.0.5.jar",
+    "sha1": "650af2cbaaa4007a09889bead13e6c9154487a0d",
+    "sha256": "84a946e4c95208bea1e07c76921ae389cb75537ded3f62ae3a0d6e1d1ffb9f3a"
+  },
+  {
+    "file": "dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar",
+    "license": "MIT",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar",
+    "sha1": "32dfe949d65c30b963c52595a2eef69ab22a2fa5",
+    "sha256": "671ce4eac9c1c7411dae050773e8cca15b69a1cd9955bac9cb54f6093964f1ff"
+  },
+  {
+    "file": "emotecraft-for-MC26.2-3.4.0-b.build.162.jar",
+    "license": "GPL-3.0",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--emotecraft-for-MC26.2-3.4.0-b.build.162.jar",
+    "sha1": "182f0c41d13f3b0dfb94781ed1ec2a7c418cde21",
+    "sha256": "f5673a134cc14f2ec2c6b7c41155b703b014df9a61ed4778f27ecc7591c7244c"
+  },
+  {
+    "file": "fast-ip-ping-v1.0.11-mc26.1.2.jar",
+    "license": "LGPL-3.0",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar",
+    "sha1": "6b69eaa6323da9f7933206d55cdb09ea3299cde3",
+    "sha256": "25db49898876554cb1ef5f2e6c514890fa2a82d1c0fbccfe41b7f08b0b65a19c"
+  },
+  {
+    "file": "ferritecore-9.0.0-neoforge.jar",
+    "license": "MIT",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar",
+    "sha1": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143",
+    "sha256": "a3292dadb1caf7ad220d3a4b68abff2ad58592ddd372160f9cf66c57d159b539"
+  },
+  {
+    "file": "ImmediatelyFast-NeoForge-1.16.3+26.2.jar",
+    "license": "LGPL-3.0-or-later",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar",
+    "sha1": "72d8ba0ceef87d48dfd20e8afb4d27fc5b0cc6ee",
+    "sha256": "8e81af7938dfb62a5424aa752033afacf83da5ce563856692588b3caff64fc69"
+  },
+  {
+    "file": "iris-neoforge-1.11.2+mc26.2.jar",
+    "license": "LGPL-3.0-only",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar",
+    "sha1": "65330433644a0706156b63d02a44855d2b80dd15",
+    "sha256": "d30e423e9bc052301a8f98c8043e2af27ca9bda1e11538e550074b4da5c8d69e"
+  },
+  {
+    "file": "lithium-neoforge-0.25.3+mc26.2.jar",
+    "license": "LGPL-3.0-only",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar",
+    "sha1": "e834dc970751b97605e2d06565b8998e22dd543a",
+    "sha256": "7a080146f5c428e3a4a34cc3526c57c71cace5e962019081cb1d45c9d55dec7a"
+  },
+  {
+    "file": "mcw-furniture-3.4.2-mc26.2neoforge.jar",
+    "license": "All Rights Reserved",
+    "source": "https://mediafilez.forgecdn.net/files/8286/572/mcw-furniture-3.4.2-mc26.2neoforge.jar",
+    "sha1": "b86d697f3cd0e7f0491156a898f0e7e1e6ebb1e7",
+    "sha256": "2326be491b94ef91257e5b8ba7ee191057d97c7004168b927dbfef82a2387486"
+  },
+  {
+    "file": "moreculling-neoforge-26.2-1.8.1.jar",
+    "license": "GPL-3.0-only",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar",
+    "sha1": "2efd4033809fdb70e6cbb9bf9ef61efcbd02d99d",
+    "sha256": "2fc3af6b340a6d3873c32c9a637f66cecc7aa87adca17622828bc8f56bf79623"
+  },
+  {
+    "file": "PlayerAnimationLibMerged-1.2.6+mc.26.2.jar",
+    "license": "MIT",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar",
+    "sha1": "55d06e255b162cb648671bbe0cb4dd0961188269",
+    "sha256": "97af3288dd39643bf3607bf9ff5c3293022793559236586a6783fe71dd66e6bd"
+  },
+  {
+    "file": "sodium-neoforge-0.9.1+mc26.2.jar",
+    "license": "PolyForm-Shield-1.0.0",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar",
+    "sha1": "12b35a942b7e788b4d95824500a5e25d555b51c1",
+    "sha256": "99211fc2a1d91c9beaa569044d191c08c68a1dbf5eb9bf1f5ee8296b9f768c81"
+  }
+]
