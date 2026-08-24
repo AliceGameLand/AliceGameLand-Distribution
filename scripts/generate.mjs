@@ -85,7 +85,7 @@ function createServersDat() {
     listLength.writeInt32BE(1)
     const server = Buffer.concat([
         nbtString('name', '앨리스의 게임랜드'),
-        nbtString('ip', 'alicehiyam.dreamcraft.kr'),
+        nbtString('ip', 'alicehiyam.dreamcraft.kr:25567'),
         nbtByte('hidden', 0),
         nbtByte('acceptTextures', 1),
         Buffer.from([0])
@@ -219,7 +219,7 @@ const distribution = {
         description: 'Minecraft 26.2 · NeoForge 전용 서버',
         icon: iconUrl,
         version: '1.0.0',
-        address: 'alicehiyam.dreamcraft.kr',
+        address: 'alicehiyam.dreamcraft.kr:25567',
         minecraftVersion,
         javaOptions: {
             supported: '>=25.x <26',

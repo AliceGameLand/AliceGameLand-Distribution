@@ -7,7 +7,7 @@
       "description": "Minecraft 26.2 · NeoForge 전용 서버",
       "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png",
       "version": "1.0.0",
-      "address": "alicehiyam.dreamcraft.kr",
+      "address": "alicehiyam.dreamcraft.kr:25567",
       "minecraftVersion": "26.2",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -774,8 +774,8 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 136,
-            "MD5": "2cddaac6f08b820f33f939da7d556c1b",
+            "size": 142,
+            "MD5": "5f29f8ae035a33794712454823dd9dd4",
             "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/servers.dat",
             "path": "servers.dat"
           }

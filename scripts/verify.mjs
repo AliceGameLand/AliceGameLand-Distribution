@@ -10,7 +10,7 @@ const assets = path.join(root, 'release-assets')
 
 if(distribution.servers.length !== 1) throw new Error('Expected exactly one server.')
 const server = distribution.servers[0]
-if(server.address !== 'alicehiyam.dreamcraft.kr') throw new Error('Unexpected server address.')
+if(server.address !== 'alicehiyam.dreamcraft.kr:25567') throw new Error('Unexpected server address.')
 if(server.minecraftVersion !== '26.2') throw new Error('Unexpected Minecraft version.')
 if(!server.modules.some(module => module.type === 'NeoForge')) throw new Error('NeoForge module missing.')
 if(manifest.length !== 15) throw new Error(`Expected 15 mods, found ${manifest.length}.`)
