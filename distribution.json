@@ -742,8 +742,8 @@
           "name": "pack.zip",
           "type": "File",
           "artifact": {
-            "size": 19083804,
-            "MD5": "d3628a1978cc41d34c54483aa6de71f1",
+            "size": 19084417,
+            "MD5": "e2c4ceac833b89e17de6cc5f7d89d00b",
             "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/resourcepacks--pack.zip",
             "path": "resourcepacks/pack.zip"
           }
