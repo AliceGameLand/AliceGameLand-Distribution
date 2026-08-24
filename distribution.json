@@ -774,8 +774,8 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 142,
-            "MD5": "5f29f8ae035a33794712454823dd9dd4",
+            "size": 119,
+            "MD5": "d8fb4ce3509d4ceba46f3387bd81107d",
             "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/servers.dat",
             "path": "servers.dat"
           }

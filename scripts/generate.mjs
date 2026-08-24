@@ -3,7 +3,6 @@ import crypto from 'node:crypto'
 import fs from 'node:fs'
 import fsp from 'node:fs/promises'
 import path from 'node:path'
-import zlib from 'node:zlib'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -90,12 +89,12 @@ function createServersDat() {
         nbtByte('acceptTextures', 1),
         Buffer.from([0])
     ])
-    return zlib.gzipSync(Buffer.concat([
+    return Buffer.concat([
         Buffer.from([10]), rootName,
         Buffer.from([9]), listName, Buffer.from([10]), listLength,
         server,
         Buffer.from([0])
-    ]))
+    ])
 }
 
 function readInstallerJson(entry) {

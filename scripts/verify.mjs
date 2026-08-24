@@ -30,6 +30,11 @@ for(const name of requiredAssets) {
     if(!fs.existsSync(path.join(assets, name))) throw new Error(`Release asset missing: ${name}`)
 }
 
+const serversData = fs.readFileSync(path.join(assets, 'servers.dat'))
+if(serversData[0] !== 10) throw new Error('servers.dat must use uncompressed NBT.')
+if(!serversData.includes(Buffer.from('앨리스의 게임랜드'))) throw new Error('Server list name missing.')
+if(!serversData.includes(Buffer.from('alicehiyam.dreamcraft.kr:25567'))) throw new Error('Server list address missing.')
+
 console.log('Distribution verification passed.')
 console.log(`Server: ${server.name} (${server.address})`)
 console.log(`Mods: ${manifest.length}`)
