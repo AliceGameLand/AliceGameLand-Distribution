@@ -13,7 +13,7 @@ const server = distribution.servers[0]
 if(server.address !== 'alicehiyam.dreamcraft.kr') throw new Error('Unexpected server address.')
 if(server.minecraftVersion !== '26.2') throw new Error('Unexpected Minecraft version.')
 if(!server.modules.some(module => module.type === 'NeoForge')) throw new Error('NeoForge module missing.')
-if(manifest.length !== 14) throw new Error(`Expected 14 mods, found ${manifest.length}.`)
+if(manifest.length !== 15) throw new Error(`Expected 15 mods, found ${manifest.length}.`)
 
 for(const record of manifest) {
     const local = record.source.includes('mediafilez.forgecdn.net')
@@ -33,4 +33,3 @@ for(const name of requiredAssets) {
 console.log('Distribution verification passed.')
 console.log(`Server: ${server.name} (${server.address})`)
 console.log(`Mods: ${manifest.length}`)
-

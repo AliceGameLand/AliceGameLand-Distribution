@@ -1,6 +1,5 @@
 {
   "version": "1.0.0",
-  "rss": "https://github.com/Dot0420/AliceGameLand-Launcher/releases.atom",
   "servers": [
     {
       "id": "AliceGameLand-26.2",
@@ -441,6 +440,17 @@
           }
         },
         {
+          "id": "koreanify-neoforge-0.1.10+mc26.1.2.jar",
+          "name": "koreanify-neoforge-0.1.10+mc26.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 75265,
+            "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
+            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
+            "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
+          }
+        },
+        {
           "id": "lithium-neoforge-0.25.3+mc26.2.jar",
           "name": "lithium-neoforge-0.25.3+mc26.2.jar",
           "type": "File",
@@ -611,7 +621,7 @@
           "type": "File",
           "artifact": {
             "size": 281,
-            "MD5": "286c9ceba1d54bded78edbd1d53219ac",
+            "MD5": "45b0c09c15a2f4f8948e892f0b82eebf",
             "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris.properties",
             "path": "config/iris.properties"
           }
@@ -688,7 +698,7 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "MD5": "52b21a25597c172015a62f174ee4755c",
+            "MD5": "0c329b21342b22ed07398b3fcf8775ac",
             "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json",
             "path": "config/sodium-fingerprint.json"
           }

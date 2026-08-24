@@ -63,6 +63,13 @@
     "sha256": "d30e423e9bc052301a8f98c8043e2af27ca9bda1e11538e550074b4da5c8d69e"
   },
   {
+    "file": "koreanify-neoforge-0.1.10+mc26.1.2.jar",
+    "license": "LGPL-3.0-only",
+    "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
+    "sha1": "f6b1599cfd1d72fca3c58f68709c8f9381a5b71d",
+    "sha256": "caf916e396d7d6aa87fe3586f997fefafb54e24c7e6757eb6b8dd644e7c68432"
+  },
+  {
     "file": "lithium-neoforge-0.25.3+mc26.2.jar",
     "license": "LGPL-3.0-only",
     "source": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar",

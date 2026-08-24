@@ -31,6 +31,7 @@ const licenses = {
     'ferritecore-9.0.0-neoforge.jar': 'MIT',
     'ImmediatelyFast-NeoForge-1.16.3+26.2.jar': 'LGPL-3.0-or-later',
     'iris-neoforge-1.11.2+mc26.2.jar': 'LGPL-3.0-only',
+    'koreanify-neoforge-0.1.10+mc26.1.2.jar': 'LGPL-3.0-only',
     'lithium-neoforge-0.25.3+mc26.2.jar': 'LGPL-3.0-only',
     'mcw-furniture-3.4.2-mc26.2neoforge.jar': 'All Rights Reserved',
     'moreculling-neoforge-26.2-1.8.1.jar': 'GPL-3.0-only',
@@ -212,7 +213,6 @@ const iconUrl = await stage(iconSource, 'server-icon.png')
 
 const distribution = {
     version: '1.0.0',
-    rss: 'https://github.com/Dot0420/AliceGameLand-Launcher/releases.atom',
     servers: [{
         id: 'AliceGameLand-26.2',
         name: '앨리스의 게임랜드',
@@ -243,4 +243,3 @@ await fsp.writeFile(path.join(root, 'mod-manifest.json'), `${JSON.stringify(modR
 
 console.log(`Generated ${modules.length} top-level modules and ${runtimeLibraries.length} NeoForge libraries.`)
 console.log(`Release assets: ${releaseAssets}`)
-
