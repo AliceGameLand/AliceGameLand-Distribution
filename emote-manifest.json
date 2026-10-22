@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-09-13T20:49:42.872Z",
+  "backup": "C:\\Users\\gptnr\\Desktop\\AliceGameLand-Distribution\\backups\\before-emotes-2026-09-13T20-49-42-816Z",
+  "emotes": [
+    {
+      "slot": 1,
+      "file": "Zero Two Wiggle.emotecraft",
+      "asset": "emote--01.emotecraft",
+      "sha256": "e598727f14f327ccc355f24ec29d30313410a521441b687cd9c03bbd88ed5022",
+      "size": 994161
+    },
+    {
+      "slot": 2,
+      "file": "Naruto Run (Movement) (Multiverse) (Naruto).emotecraft",
+      "asset": "emote--02.emotecraft",
+      "sha256": "3d1d630b5f52d1abe9dee37302dac9dc1cb8f11163734fee75da09cb210dff0c",
+      "size": 68184
+    },
+    {
+      "slot": 3,
+      "file": "Twerk (Dance).emotecraft",
+      "asset": "emote--03.emotecraft",
+      "sha256": "8753886699b9577336677587642a9d52f6a62f98443dbbde93dcb2de778ba68d",
+      "size": 59234
+    },
+    {
+      "slot": 4,
+      "file": "Brakedance.emotecraft",
+      "asset": "emote--04.emotecraft",
+      "sha256": "615376dd0c7ca164f103d54e0dfb93a63ffb72b06b46e11a5f16925ca944b002",
+      "size": 74488
+    },
+    {
+      "slot": 5,
+      "file": "Macarena (Dance).emotecraft",
+      "asset": "emote--05.emotecraft",
+      "sha256": "63d609238cf5527f872ca43e2d5aeb1ec8f75cf5b9a4ceba6e314e9ceead08b3",
+      "size": 41712
+    },
+    {
+      "slot": 6,
+      "file": "Dance Moves.emotecraft",
+      "asset": "emote--06.emotecraft",
+      "sha256": "b2b7f49adcf11cdbbccd49b1caf75f022f1df3c2e3f1a0392a4d94c46d0d5180",
+      "size": 75427
+    },
+    {
+      "slot": 7,
+      "file": "Skibidi dob dob (Dance).emotecraft",
+      "asset": "emote--07.emotecraft",
+      "sha256": "b602ad1af6da52bff15c81080a138eb55192e6fcff4705be95cf52bb82de7ce9",
+      "size": 42350
+    },
+    {
+      "slot": 8,
+      "file": "Jiggle your ass (Dance).emotecraft",
+      "asset": "emote--08.emotecraft",
+      "sha256": "5f57a91dfbab9bc8a02f66d6c8a5363dcd7a7b60efeb8ab9b48c23f66aa144b4",
+      "size": 81524
+    }
+  ]
+}

@@ -19,6 +19,7 @@ const neoForgeVersion = '26.2.0.59'
 const minecraftVersion = '26.2'
 const installer = path.join(prismLibraries, 'net', 'neoforged', 'neoforge', neoForgeVersion, `neoforge-${neoForgeVersion}-installer.jar`)
 const releaseAssets = path.join(root, 'release-assets')
+const clientDefaults = path.join(root, 'client-defaults')
 
 const licenses = {
     'camera-neoforge-1.1.9+26.2.jar': 'All Rights Reserved',
@@ -48,6 +49,12 @@ function digest(file, algorithm) {
 }
 
 function artifact(file, url, relativePath) {
+    if(url.startsWith(releaseBase + '/')) {
+        const versioned = new URL(url)
+        versioned.searchParams.set('v', digest(file, 'sha256').slice(0, 12))
+        if(relativePath === 'config/sodium-fingerprint.json') versioned.searchParams.set('revision', '1')
+        url = versioned.toString()
+    }
     return {
         size: fs.statSync(file).size,
         MD5: digest(file, 'md5'),
@@ -84,7 +91,7 @@ function createServersDat() {
     listLength.writeInt32BE(1)
     const server = Buffer.concat([
         nbtString('name', '앨리스의 게임랜드'),
-        nbtString('ip', 'alicehiyam.dreamcraft.kr:25567'),
+        nbtString('ip', 'alicehiyam.dreamcraft.kr'),
         nbtByte('hidden', 0),
         nbtByte('acceptTextures', 1),
         Buffer.from([0])
@@ -185,13 +192,40 @@ for(const name of (await fsp.readdir(modsDirectory)).sort((a, b) => a.localeComp
 
 const configDirectory = path.join(prismMinecraft, 'config')
 for(const name of (await fsp.readdir(configDirectory)).sort((a, b) => a.localeCompare(b))) {
-    const source = path.join(configDirectory, name)
+    const override = path.join(clientDefaults, 'config', name)
+    const source = fs.existsSync(override) ? override : path.join(configDirectory, name)
     if(!(await fsp.stat(source)).isFile()) continue
-    modules.push(await fileModule(source, `config/${name}`, `config--${name}`))
+    const module = await fileModule(source, `config/${name}`, `config--${name}`)
+    // Download Iris defaults only when missing; never reset a player's shader selection.
+    if(name === 'iris.properties') delete module.artifact.MD5
+    modules.push(module)
 }
 
-const pack = path.join(prismMinecraft, 'resourcepacks', 'pack.zip')
-modules.push(await fileModule(pack, 'resourcepacks/pack.zip', 'resourcepacks--pack.zip'))
+const emoteManifestPath = path.join(root, 'emote-manifest.json')
+if(fs.existsSync(emoteManifestPath)) {
+    const emoteManifest = JSON.parse(await fsp.readFile(emoteManifestPath, 'utf8'))
+    for(const emote of emoteManifest.emotes) {
+        modules.push(await fileModule(path.join(clientDefaults, 'emotes', emote.file),
+            `emotes/${emote.file}`, emote.asset))
+    }
+}
+
+const shaderManifestPath = path.join(root, 'shader-manifest.json')
+if(fs.existsSync(shaderManifestPath)) {
+    const shaderManifest = JSON.parse(await fsp.readFile(shaderManifestPath, 'utf8'))
+    for(const shader of shaderManifest.shaders) {
+        const module = await fileModule(path.join(clientDefaults, 'shaderpacks', shader.file),
+            `shaderpacks/${shader.file}`, null, shader.url)
+        module.id = `shader-${shader.slug}`
+        modules.push(module)
+    }
+}
+
+const defaultPack = path.join(clientDefaults, 'resourcepacks', 'pack.zip')
+const pack = fs.existsSync(defaultPack) ? defaultPack : path.join(prismMinecraft, 'resourcepacks', 'pack.zip')
+const packModule = await fileModule(pack, 'resourcepacks/pack.zip', 'resourcepacks--pack.zip')
+// All GitHub assets are content-versioned by artifact(), including this pack.
+modules.push(packModule)
 
 const optionsFile = path.join(releaseAssets, 'options.txt')
 await fsp.writeFile(optionsFile, [
@@ -199,26 +233,40 @@ await fsp.writeFile(optionsFile, [
     'incompatibleResourcePacks:[]',
     'lang:ko_kr',
     'onboardAccessibility:false',
+    'tutorialStep:none',
+    'guiScale:4',
     ''
 ].join('\n'))
-modules.push(await fileModule(optionsFile, 'options.txt', 'options.txt'))
+const optionsModule = await fileModule(optionsFile, 'options.txt', 'options.txt')
+// Keep personal sensitivity, FOV and keybindings after the first installation.
+delete optionsModule.artifact.MD5
+modules.push(optionsModule)
 
 const serversFile = path.join(releaseAssets, 'servers.dat')
 await fsp.writeFile(serversFile, createServersDat())
-modules.push(await fileModule(serversFile, 'servers.dat', 'servers.dat'))
+const serversModule = await fileModule(serversFile, 'servers.dat', 'servers.dat')
+// Existing personal server lists must never be replaced during PLAY.
+delete serversModule.artifact.MD5
+modules.push(serversModule)
 
 const iconSource = path.join(launcherRoot, 'app', 'assets', 'images', 'AliceGameLand.png')
 const iconUrl = await stage(iconSource, 'server-icon.png')
 
 const distribution = {
     version: '1.0.0',
+    discord: { clientId: '1552647446025216110' },
     servers: [{
         id: 'AliceGameLand-26.2',
         name: '앨리스의 게임랜드',
         description: 'Minecraft 26.2 · NeoForge 전용 서버',
         icon: iconUrl,
-        version: '1.0.0',
-        address: 'alicehiyam.dreamcraft.kr:25567',
+        discord: {
+            shortId: '앨리스의 게임랜드',
+            largeImageText: '앨리스의 게임랜드',
+            largeImageKey: iconUrl
+        },
+        version: '1.0.12',
+        address: 'alicehiyam.dreamcraft.kr',
         minecraftVersion,
         javaOptions: {
             supported: '>=25.x <26',

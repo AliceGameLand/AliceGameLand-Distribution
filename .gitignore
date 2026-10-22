@@ -1,3 +1,43 @@
 release-assets/
 *.log
+backups/
+validation-runtime/
+diamond-release-assets/
+crime-release-assets/
 
+# Local release staging and manifest backups
+*-release-assets/
+distribution.json.before-*
+
+# Local runtimes, generated files and credentials
+**/.git/
+**/.gradle/
+**/.gradle-*/
+**/build/
+**/build-*/
+**/node_modules/
+**/run/
+**/run-*/
+**/__pycache__/
+**/.idea/
+**/.vscode/
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.jks
+**/request.properties*
+**/*.log
+**/*.class
+**/*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+**/*.zip
+**/*.tar.gz
+**/*.bak
+**/*.backup
+**/*.before-*
+**/vendor/
+**/backups/
+**/validated-source/

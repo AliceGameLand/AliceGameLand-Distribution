@@ -1,0 +1,39 @@
+{
+  "createdAt": "2026-09-14T01:40:28.391Z",
+  "backup": "C:\\Users\\gptnr\\Desktop\\AliceGameLand-Distribution\\backups\\before-shaders-2026-09-14T01-40-24.810Z",
+  "shaders": [
+    {
+      "slug": "bsl-shaders",
+      "version": "10.1.5",
+      "versionId": "yFTiE1Nc",
+      "file": "BSL_v10.1.5.zip",
+      "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/yFTiE1Nc/BSL_v10.1.5.zip",
+      "size": 1133936,
+      "md5": "f1f6a07f62cf668b17c333d4c80b6f6f",
+      "sha256": "1038c018934c43018f9517e326c0cafcf8a3fb83db0d2cce0697fa8ee1289838",
+      "sha512": "ee5f5445b101e6a85942b78e9da1d4266d7ed277a56a83189ac5dc4fab3ce1f8de4c66c52cf87c747f94e871fb2888684aa6763ab907e1c5c9926594d1996504"
+    },
+    {
+      "slug": "complementary-reimagined",
+      "version": "r5.9.1",
+      "versionId": "ErCjThzb",
+      "file": "ComplementaryReimagined_r5.9.1.zip",
+      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/ErCjThzb/ComplementaryReimagined_r5.9.1.zip",
+      "size": 552945,
+      "md5": "5cd436e5bebc013fa1781b3cd6a9aad6",
+      "sha256": "f2bc85507f8bfed274ede69fc7df3b6af3f35c5c98baea8bec95ebeb5f3eb79b",
+      "sha512": "b1ae05727dd006b1d95a3cd0830fd593a7372aa28030b17b39e8955d47bad6153a0c40aae440cd168b2faaafa5828d9cbe6b3b66eff087df1f010099d881ee03"
+    },
+    {
+      "slug": "complementary-unbound",
+      "version": "r5.9.1",
+      "versionId": "UhZjVKiD",
+      "file": "ComplementaryUnbound_r5.9.1.zip",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/UhZjVKiD/ComplementaryUnbound_r5.9.1.zip",
+      "size": 552949,
+      "md5": "af14f654ae0f496d0aaa2deac0faff65",
+      "sha256": "328a7e75422897ac57e9b914ec79842cb3881573c675eaed9f436c69400845ee",
+      "sha512": "fe7ee33e0fcf69ea2922bdc80c514faac8ef0875112cf0efeb4d8fbd03c177f2d9a48179de6ca6e055bf5dc8c64d1ca1c7d0987ed763d04842df3bda3a29417f"
+    }
+  ]
+}
