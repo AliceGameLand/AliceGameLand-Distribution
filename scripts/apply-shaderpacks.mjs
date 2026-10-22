@@ -8,7 +8,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const instance = path.join(process.env.APPDATA, '.alicegameland', 'instances', 'AliceGameLand-26.2')
 const distributionPath = path.join(root, 'distribution.json')
 const distribution = JSON.parse(await fs.readFile(distributionPath, 'utf8'))
-const remoteUrl = 'https://github.com/Dot0420/AliceGameLand-Distribution/releases/latest/download/distribution.json'
+const remoteUrl = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/latest/download/distribution.json'
 async function download(url) {
     const response = await fetch(url, { headers: { 'User-Agent': 'AliceGameLand-shader-defaults/1.0' } })
     if(!response.ok) throw new Error(`${response.status}: ${url}`)

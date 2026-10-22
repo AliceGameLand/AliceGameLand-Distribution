@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const stage = path.join(root, 'validation-runtime/company-brand/publish')
 const tag = 'burcompany-branding-v1'
-const iconUrl = `https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/${tag}/burcompany-pvp.png`
+const iconUrl = `https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/${tag}/burcompany-pvp.png`
 const baseline = JSON.parse(await fs.readFile(path.join(root, 'validation-runtime/company-brand/distribution.json'), 'utf8'))
 const localPath = path.join(root, 'distribution.json')
 const original = await fs.readFile(localPath, 'utf8')

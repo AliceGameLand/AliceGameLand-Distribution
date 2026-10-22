@@ -58,7 +58,7 @@ fs.writeFileSync(localConfigPath, `${JSON.stringify(localConfig, null, 2)}\n`)
 
 const distro = JSON.parse(fs.readFileSync(path.join(root, 'distribution.json'), 'utf8'))
 const modules = distro.servers[0].modules
-const baseUrl = 'https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0'
+const baseUrl = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0'
 const configModule = modules.find(module => module.artifact?.path === 'config/emotecraft.json')
 assert.ok(configModule, 'Emotecraft config module missing')
 configModule.artifact.size = configBytes.length

@@ -12,7 +12,7 @@ assert.ok(compatibleMods.length > 0, 'No tested compatible mods: do not publish 
 const localPath = path.join(root, 'distribution.json')
 const original = await fs.readFile(localPath, 'utf8')
 const distro = JSON.parse(original)
-const response = await fetch(`https://github.com/Dot0420/AliceGameLand-Distribution/releases/latest/download/distribution.json?check=${Date.now()}`)
+const response = await fetch(`https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/latest/download/distribution.json?check=${Date.now()}`)
 assert.ok(response.ok, `Published distribution returned ${response.status}`)
 assert.deepEqual(distro, await response.json(), 'Local and published distributions differ; inspect before updating.')
 const previousServers = structuredClone(distro.servers)

@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const releaseTag = 'crime-v1.0.1'
 const address = '146.56.114.53:25566'
-const releaseBase = `https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/${releaseTag}`
+const releaseBase = `https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/${releaseTag}`
 const icons = {
     diamond: `${releaseBase}/diamond.png`,
     crime: `${releaseBase}/crime-scene.png`

@@ -8,11 +8,11 @@
       "id": "AliceDiamond-26.2",
       "name": "버컴퍼니 다이아몬드 대결",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.1/diamond.png",
+      "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/diamond.png",
       "discord": {
         "shortId": "버컴퍼니 다이아몬드 대결",
         "largeImageText": "버컴퍼니 다이아몬드 대결",
-        "largeImageKey": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.1/diamond.png"
+        "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/diamond.png"
       },
       "version": "1.0.46",
       "address": "alicehiyam.dreamcraft.kr",
@@ -46,7 +46,7 @@
               "artifact": {
                 "size": 11561,
                 "MD5": "40c09b8fbb88cfa6639d1557f83cf2b5",
-                "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
+                "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
               }
             },
             {
@@ -355,7 +355,7 @@
           "artifact": {
             "size": 84921,
             "MD5": "c854707eea93eec10033b57a2ff05422",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-save-volume-v1.0.42/mod--AliceDiamondClient-1.0.0.jar?v=f618a9224935",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-save-volume-v1.0.42/mod--AliceDiamondClient-1.0.0.jar?v=f618a9224935",
             "path": "mods/AliceDiamondClient-1.0.0.jar"
           }
         },
@@ -366,7 +366,7 @@
           "artifact": {
             "size": 100062,
             "MD5": "6b3af3891b67f8e6cac866e40898b486",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
             "path": "mods/ImmediatelyFast-NeoForge-1.16.3+26.2.jar"
           }
         },
@@ -377,7 +377,7 @@
           "artifact": {
             "size": 1135847,
             "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
             "path": "mods/cloth-config-26.2.155.jar"
           }
         },
@@ -388,7 +388,7 @@
           "artifact": {
             "size": 832561,
             "MD5": "6aa1be85ac6f8e3f4e2b87a58f0cfb43",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/mod--donation-neoforge-26.2-3.0.1-patched.jar?v=84b264b1f991",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/mod--donation-neoforge-26.2-3.0.1-patched.jar?v=84b264b1f991",
             "path": "mods/donation-neoforge-26.2-3.0.1-patched.jar"
           }
         },
@@ -399,7 +399,7 @@
           "artifact": {
             "size": 185732,
             "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
             "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar"
           }
         },
@@ -410,7 +410,7 @@
           "artifact": {
             "size": 11187,
             "MD5": "d0077b329847194486167639b26f715a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
             "path": "mods/fast-ip-ping-v1.0.11-mc26.1.2.jar"
           }
         },
@@ -421,7 +421,7 @@
           "artifact": {
             "size": 71947,
             "MD5": "b2fde13466c357340262d60a213f8805",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
             "path": "mods/ferritecore-9.0.0-neoforge.jar"
           }
         },
@@ -432,7 +432,7 @@
           "artifact": {
             "size": 2751198,
             "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
             "path": "mods/iris-neoforge-1.11.2+mc26.2.jar"
           }
         },
@@ -443,7 +443,7 @@
           "artifact": {
             "size": 75265,
             "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
             "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
           }
         },
@@ -454,7 +454,7 @@
           "artifact": {
             "size": 904073,
             "MD5": "76dd1e0241a8a350ff3a249502243fd2",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
             "path": "mods/lithium-neoforge-0.25.3+mc26.2.jar"
           }
         },
@@ -465,7 +465,7 @@
           "artifact": {
             "size": 349733,
             "MD5": "a55e6bfed0ba141f94e7743fc190f501",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
             "path": "mods/moreculling-neoforge-26.2-1.8.1.jar"
           }
         },
@@ -476,7 +476,7 @@
           "artifact": {
             "size": 1128681,
             "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
             "path": "mods/sodium-neoforge-0.9.1+mc26.2.jar"
           }
         },
@@ -509,7 +509,7 @@
           "artifact": {
             "size": 6136388,
             "MD5": "956b1dd0cbfc5002216d2480e578e415",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-portals-v1.0.43/resourcepacks--alice-diamond.zip?v=db2dd165050f",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-portals-v1.0.43/resourcepacks--alice-diamond.zip?v=db2dd165050f",
             "path": "resourcepacks/alice-diamond.zip"
           }
         },
@@ -519,7 +519,7 @@
           "type": "File",
           "artifact": {
             "size": 3,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -529,7 +529,7 @@
           "type": "File",
           "artifact": {
             "size": 809,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -539,7 +539,7 @@
           "type": "File",
           "artifact": {
             "size": 912,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -549,7 +549,7 @@
           "type": "File",
           "artifact": {
             "size": 31,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
             "path": "config/iris-excluded.json"
           }
         },
@@ -559,7 +559,7 @@
           "type": "File",
           "artifact": {
             "size": 276,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/config--iris.properties?v=5885b3f1ae0c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/config--iris.properties?v=5885b3f1ae0c",
             "path": "config/iris.properties"
           }
         },
@@ -569,7 +569,7 @@
           "type": "File",
           "artifact": {
             "size": 267,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
             "path": "config/lithium.properties"
           }
         },
@@ -579,7 +579,7 @@
           "type": "File",
           "artifact": {
             "size": 495,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
             "path": "config/moreculling.toml"
           }
         },
@@ -590,7 +590,7 @@
           "artifact": {
             "size": 1456,
             "MD5": "c14015609f5e20ae457434d5cf5fe484",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/config--neoforge-client.toml?v=ce1a9d4e61f9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/config--neoforge-client.toml?v=ce1a9d4e61f9",
             "path": "config/neoforge-client.toml"
           }
         },
@@ -600,7 +600,7 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -610,7 +610,7 @@
           "type": "File",
           "artifact": {
             "size": 258,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
             "path": "config/sodium-mixins.properties"
           }
         },
@@ -620,7 +620,7 @@
           "type": "File",
           "artifact": {
             "size": 743,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
             "path": "config/sodium-options.json"
           }
         },
@@ -663,7 +663,7 @@
           "type": "File",
           "artifact": {
             "size": 163,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceDiamond-26.2-options.txt",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceDiamond-26.2-options.txt",
             "path": "options.txt"
           }
         },
@@ -684,7 +684,7 @@
           "type": "File",
           "artifact": {
             "size": 105,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-launcher-v1.0.39/diamond-servers.dat?v=d7a998001f6a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-launcher-v1.0.39/diamond-servers.dat?v=d7a998001f6a",
             "path": "servers.dat"
           }
         }
@@ -694,11 +694,11 @@
       "id": "AliceGameLand-26.2",
       "name": "혜안져스 미니게임",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png",
+      "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png",
       "discord": {
         "shortId": "혜안져스 미니게임",
         "largeImageText": "혜안져스 미니게임",
-        "largeImageKey": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png"
+        "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png"
       },
       "version": "1.0.14",
       "address": "alicehiyam.dreamcraft.kr",
@@ -732,7 +732,7 @@
               "artifact": {
                 "size": 11561,
                 "MD5": "823d1bd57d4be488cc53547a68e73bb9",
-                "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/neoforge-26.2.0.59-version.json?v=c060950be8b0"
+                "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/neoforge-26.2.0.59-version.json?v=c060950be8b0"
               }
             },
             {
@@ -1052,7 +1052,7 @@
           "artifact": {
             "size": 1135847,
             "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
             "path": "mods/cloth-config-26.2.155.jar"
           }
         },
@@ -1063,7 +1063,7 @@
           "artifact": {
             "size": 156187,
             "MD5": "f2cffb5ec46e66a8ffd885dc235c5726",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cushionbackport-26.2-NeoForge-1.0.5.jar?v=84a946e4c952",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cushionbackport-26.2-NeoForge-1.0.5.jar?v=84a946e4c952",
             "path": "mods/cushionbackport-26.2-NeoForge-1.0.5.jar"
           }
         },
@@ -1074,7 +1074,7 @@
           "artifact": {
             "size": 185732,
             "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
             "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar"
           }
         },
@@ -1085,7 +1085,7 @@
           "artifact": {
             "size": 1202163,
             "MD5": "c44b0ba54d274a580cd663b1ebccf050",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--emotecraft-for-MC26.2-3.4.0-b.build.162.jar?v=f5673a134cc1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--emotecraft-for-MC26.2-3.4.0-b.build.162.jar?v=f5673a134cc1",
             "path": "mods/emotecraft-for-MC26.2-3.4.0-b.build.162.jar"
           }
         },
@@ -1096,7 +1096,7 @@
           "artifact": {
             "size": 11187,
             "MD5": "d0077b329847194486167639b26f715a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
             "path": "mods/fast-ip-ping-v1.0.11-mc26.1.2.jar"
           }
         },
@@ -1107,7 +1107,7 @@
           "artifact": {
             "size": 71947,
             "MD5": "b2fde13466c357340262d60a213f8805",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
             "path": "mods/ferritecore-9.0.0-neoforge.jar"
           }
         },
@@ -1118,7 +1118,7 @@
           "artifact": {
             "size": 100062,
             "MD5": "6b3af3891b67f8e6cac866e40898b486",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
             "path": "mods/ImmediatelyFast-NeoForge-1.16.3+26.2.jar"
           }
         },
@@ -1129,7 +1129,7 @@
           "artifact": {
             "size": 2751198,
             "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
             "path": "mods/iris-neoforge-1.11.2+mc26.2.jar"
           }
         },
@@ -1140,7 +1140,7 @@
           "artifact": {
             "size": 75265,
             "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
             "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
           }
         },
@@ -1151,7 +1151,7 @@
           "artifact": {
             "size": 904073,
             "MD5": "76dd1e0241a8a350ff3a249502243fd2",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
             "path": "mods/lithium-neoforge-0.25.3+mc26.2.jar"
           }
         },
@@ -1173,7 +1173,7 @@
           "artifact": {
             "size": 349733,
             "MD5": "a55e6bfed0ba141f94e7743fc190f501",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
             "path": "mods/moreculling-neoforge-26.2-1.8.1.jar"
           }
         },
@@ -1184,7 +1184,7 @@
           "artifact": {
             "size": 419757,
             "MD5": "a993c98b0c19c7278fde4020210ec424",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar?v=97af3288dd39",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar?v=97af3288dd39",
             "path": "mods/PlayerAnimationLibMerged-1.2.6+mc.26.2.jar"
           }
         },
@@ -1195,7 +1195,7 @@
           "artifact": {
             "size": 1128681,
             "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
             "path": "mods/sodium-neoforge-0.9.1+mc26.2.jar"
           }
         },
@@ -1206,7 +1206,7 @@
           "artifact": {
             "size": 325,
             "MD5": "d977c91da0f0170d3b216d839cf4a4e5",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-client.toml?v=55f3d3ecfd46",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-client.toml?v=55f3d3ecfd46",
             "path": "config/camera-client.toml"
           }
         },
@@ -1217,7 +1217,7 @@
           "artifact": {
             "size": 1170,
             "MD5": "91065ed0f803b0e5b9ab167b278a6e8d",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-server.toml?v=d706ac615a38",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-server.toml?v=d706ac615a38",
             "path": "config/camera-server.toml"
           }
         },
@@ -1228,7 +1228,7 @@
           "artifact": {
             "size": 46,
             "MD5": "a19220a7d54c2d1497922436a544fdf8",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--cushionbackport.json?v=ebe13ba32ec1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--cushionbackport.json?v=ebe13ba32ec1",
             "path": "config/cushionbackport.json"
           }
         },
@@ -1239,7 +1239,7 @@
           "artifact": {
             "size": 3,
             "MD5": "8a80554c91d9fca8acb82f023de02f11",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -1250,7 +1250,7 @@
           "artifact": {
             "size": 1916881,
             "MD5": "d74de919043051d8733e77d4c25ecc78",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--emotecraft.json?v=93a6a2e0d924",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--emotecraft.json?v=93a6a2e0d924",
             "path": "config/emotecraft.json"
           }
         },
@@ -1261,7 +1261,7 @@
           "artifact": {
             "size": 2228,
             "MD5": "da0e5b077b77efa3249c47e9b2e5a4ae",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--entityculling.json?v=e92e6772c4b6",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--entityculling.json?v=e92e6772c4b6",
             "path": "config/entityculling.json"
           }
         },
@@ -1272,7 +1272,7 @@
           "artifact": {
             "size": 809,
             "MD5": "fcd4183c63696df4a3cab78dc24853b6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -1283,7 +1283,7 @@
           "artifact": {
             "size": 1539,
             "MD5": "e41ec763d695fc5fc26f409c9bf43593",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--fml.toml?v=e0d3edd400c6",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--fml.toml?v=e0d3edd400c6",
             "path": "config/fml.toml"
           }
         },
@@ -1294,7 +1294,7 @@
           "artifact": {
             "size": 912,
             "MD5": "2f8d26126729cff4a74e4f1248d28b8a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -1305,7 +1305,7 @@
           "artifact": {
             "size": 31,
             "MD5": "670592b1394f12ab96d8432f14ac8dd9",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
             "path": "config/iris-excluded.json"
           }
         },
@@ -1315,7 +1315,7 @@
           "type": "File",
           "artifact": {
             "size": 276,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris.properties?v=5885b3f1ae0c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris.properties?v=5885b3f1ae0c",
             "path": "config/iris.properties"
           }
         },
@@ -1326,7 +1326,7 @@
           "artifact": {
             "size": 267,
             "MD5": "65a61a8f2201e0a571d48a7f0295da19",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
             "path": "config/lithium.properties"
           }
         },
@@ -1337,7 +1337,7 @@
           "artifact": {
             "size": 4764,
             "MD5": "c5e1ef4e2ec8d6702c25b026ec64e530",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--modernfix-mixins.properties?v=ee1f0f604663",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--modernfix-mixins.properties?v=ee1f0f604663",
             "path": "config/modernfix-mixins.properties"
           }
         },
@@ -1348,7 +1348,7 @@
           "artifact": {
             "size": 495,
             "MD5": "22d737e6f7603d86e8f71ad9d7fcb6fa",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
             "path": "config/moreculling.toml"
           }
         },
@@ -1359,7 +1359,7 @@
           "artifact": {
             "size": 1455,
             "MD5": "a2b3d0add063f2cdc1fd437946c1e967",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-client.toml?v=1f69c6a59370",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-client.toml?v=1f69c6a59370",
             "path": "config/neoforge-client.toml"
           }
         },
@@ -1370,7 +1370,7 @@
           "artifact": {
             "size": 155,
             "MD5": "120c3c4a8722495d1ff012a2678e46fd",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-common.toml?v=caa885bd719c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-common.toml?v=caa885bd719c",
             "path": "config/neoforge-common.toml"
           }
         },
@@ -1381,7 +1381,7 @@
           "artifact": {
             "size": 1178,
             "MD5": "8494ac71281785a6e97526eef4b1d647",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-server.toml?v=581d7b0b184d",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-server.toml?v=581d7b0b184d",
             "path": "config/neoforge-server.toml"
           }
         },
@@ -1392,7 +1392,7 @@
           "artifact": {
             "size": 427,
             "MD5": "0c329b21342b22ed07398b3fcf8775ac",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -1403,7 +1403,7 @@
           "artifact": {
             "size": 258,
             "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
             "path": "config/sodium-mixins.properties"
           }
         },
@@ -1414,7 +1414,7 @@
           "artifact": {
             "size": 743,
             "MD5": "a73b2c676e2b7d75869a4e4faf046506",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
             "path": "config/sodium-options.json"
           }
         },
@@ -1425,7 +1425,7 @@
           "artifact": {
             "size": 97,
             "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--transition.json?v=60420a41571a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--transition.json?v=60420a41571a",
             "path": "config/transition.json"
           }
         },
@@ -1436,7 +1436,7 @@
           "artifact": {
             "size": 47,
             "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--trender.json?v=0a282f3623f7",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--trender.json?v=0a282f3623f7",
             "path": "config/trender.json"
           }
         },
@@ -1447,7 +1447,7 @@
           "artifact": {
             "size": 19084252,
             "MD5": "884c24415e5d078988760e0b81a20723",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/resourcepacks--pack.zip?v=19bcf55b4b45",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/resourcepacks--pack.zip?v=19bcf55b4b45",
             "path": "resourcepacks/pack.zip"
           }
         },
@@ -1457,7 +1457,7 @@
           "type": "File",
           "artifact": {
             "size": 154,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceGameLand-26.2-options.txt",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceGameLand-26.2-options.txt",
             "path": "options.txt"
           }
         },
@@ -1467,7 +1467,7 @@
           "type": "File",
           "artifact": {
             "size": 113,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/servers.dat?v=40ba21e9ce79",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/servers.dat?v=40ba21e9ce79",
             "path": "servers.dat"
           }
         },
@@ -1478,7 +1478,7 @@
           "artifact": {
             "size": 994161,
             "MD5": "6a0a9a9b8008151dd7a9fc0a620abd65",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--01.emotecraft?v=e598727f14f3",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--01.emotecraft?v=e598727f14f3",
             "path": "emotes/Zero Two Wiggle.emotecraft"
           }
         },
@@ -1489,7 +1489,7 @@
           "artifact": {
             "size": 68184,
             "MD5": "a9f442f1a238074658d6aa34a28afda9",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--02.emotecraft?v=3d1d630b5f52",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--02.emotecraft?v=3d1d630b5f52",
             "path": "emotes/Naruto Run (Movement) (Multiverse) (Naruto).emotecraft"
           }
         },
@@ -1500,7 +1500,7 @@
           "artifact": {
             "size": 59234,
             "MD5": "0acf9fa22fb28041ac927be6d8f7149b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--03.emotecraft?v=8753886699b9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--03.emotecraft?v=8753886699b9",
             "path": "emotes/Twerk (Dance).emotecraft"
           }
         },
@@ -1511,7 +1511,7 @@
           "artifact": {
             "size": 74488,
             "MD5": "6aeaec9567a2a114f07b68afa4517c1e",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--04.emotecraft?v=615376dd0c7c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--04.emotecraft?v=615376dd0c7c",
             "path": "emotes/Brakedance.emotecraft"
           }
         },
@@ -1522,7 +1522,7 @@
           "artifact": {
             "size": 41712,
             "MD5": "5358be88c47dfdfa22a62a69722a1bad",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--05.emotecraft?v=63d609238cf5",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--05.emotecraft?v=63d609238cf5",
             "path": "emotes/Macarena (Dance).emotecraft"
           }
         },
@@ -1533,7 +1533,7 @@
           "artifact": {
             "size": 75427,
             "MD5": "709208df2aa54cafb5c983330142c281",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--06.emotecraft?v=b2b7f49adcf1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--06.emotecraft?v=b2b7f49adcf1",
             "path": "emotes/Dance Moves.emotecraft"
           }
         },
@@ -1544,7 +1544,7 @@
           "artifact": {
             "size": 42350,
             "MD5": "47681f202fed11b6a12ceb02cc75fe01",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--07.emotecraft?v=b602ad1af6da",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--07.emotecraft?v=b602ad1af6da",
             "path": "emotes/Skibidi dob dob (Dance).emotecraft"
           }
         },
@@ -1555,7 +1555,7 @@
           "artifact": {
             "size": 81524,
             "MD5": "b56a2dc05b3c39a56f439e8c62ba5b16",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--08.emotecraft?v=5f57a91dfbab",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--08.emotecraft?v=5f57a91dfbab",
             "path": "emotes/Jiggle your ass (Dance).emotecraft"
           }
         },
@@ -1598,11 +1598,11 @@
       "id": "AliceCrimeScene-26.2",
       "name": "컨텐츠",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png",
+      "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png",
       "discord": {
         "shortId": "컨텐츠",
         "largeImageText": "컨텐츠",
-        "largeImageKey": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png"
+        "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png"
       },
       "version": "1.2.8",
       "address": "146.56.114.53:25566",
@@ -1636,7 +1636,7 @@
               "artifact": {
                 "size": 11561,
                 "MD5": "40c09b8fbb88cfa6639d1557f83cf2b5",
-                "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
+                "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
               }
             },
             {
@@ -1956,7 +1956,7 @@
           "artifact": {
             "size": 1135847,
             "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cloth-config-26.2.155.jar?v=650cdc79fcb3",
             "path": "mods/cloth-config-26.2.155.jar"
           }
         },
@@ -1967,7 +1967,7 @@
           "artifact": {
             "size": 156187,
             "MD5": "f2cffb5ec46e66a8ffd885dc235c5726",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cushionbackport-26.2-NeoForge-1.0.5.jar?v=84a946e4c952",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--cushionbackport-26.2-NeoForge-1.0.5.jar?v=84a946e4c952",
             "path": "mods/cushionbackport-26.2-NeoForge-1.0.5.jar"
           }
         },
@@ -1978,7 +1978,7 @@
           "artifact": {
             "size": 185732,
             "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar?v=671ce4eac9c1",
             "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar"
           }
         },
@@ -1989,7 +1989,7 @@
           "artifact": {
             "size": 1202163,
             "MD5": "c44b0ba54d274a580cd663b1ebccf050",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--emotecraft-for-MC26.2-3.4.0-b.build.162.jar?v=f5673a134cc1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--emotecraft-for-MC26.2-3.4.0-b.build.162.jar?v=f5673a134cc1",
             "path": "mods/emotecraft-for-MC26.2-3.4.0-b.build.162.jar"
           }
         },
@@ -2000,7 +2000,7 @@
           "artifact": {
             "size": 11187,
             "MD5": "d0077b329847194486167639b26f715a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--fast-ip-ping-v1.0.11-mc26.1.2.jar?v=25db49898876",
             "path": "mods/fast-ip-ping-v1.0.11-mc26.1.2.jar"
           }
         },
@@ -2011,7 +2011,7 @@
           "artifact": {
             "size": 71947,
             "MD5": "b2fde13466c357340262d60a213f8805",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ferritecore-9.0.0-neoforge.jar?v=a3292dadb1ca",
             "path": "mods/ferritecore-9.0.0-neoforge.jar"
           }
         },
@@ -2022,7 +2022,7 @@
           "artifact": {
             "size": 100062,
             "MD5": "6b3af3891b67f8e6cac866e40898b486",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar?v=8e81af7938df",
             "path": "mods/ImmediatelyFast-NeoForge-1.16.3+26.2.jar"
           }
         },
@@ -2033,7 +2033,7 @@
           "artifact": {
             "size": 2751198,
             "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--iris-neoforge-1.11.2%2Bmc26.2.jar?v=d30e423e9bc0",
             "path": "mods/iris-neoforge-1.11.2+mc26.2.jar"
           }
         },
@@ -2044,7 +2044,7 @@
           "artifact": {
             "size": 75265,
             "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar?v=caf916e396d7",
             "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
           }
         },
@@ -2055,7 +2055,7 @@
           "artifact": {
             "size": 904073,
             "MD5": "76dd1e0241a8a350ff3a249502243fd2",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--lithium-neoforge-0.25.3%2Bmc26.2.jar?v=7a080146f5c4",
             "path": "mods/lithium-neoforge-0.25.3+mc26.2.jar"
           }
         },
@@ -2077,7 +2077,7 @@
           "artifact": {
             "size": 349733,
             "MD5": "a55e6bfed0ba141f94e7743fc190f501",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--moreculling-neoforge-26.2-1.8.1.jar?v=2fc3af6b340a",
             "path": "mods/moreculling-neoforge-26.2-1.8.1.jar"
           }
         },
@@ -2088,7 +2088,7 @@
           "artifact": {
             "size": 419757,
             "MD5": "a993c98b0c19c7278fde4020210ec424",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar?v=97af3288dd39",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar?v=97af3288dd39",
             "path": "mods/PlayerAnimationLibMerged-1.2.6+mc.26.2.jar"
           }
         },
@@ -2099,7 +2099,7 @@
           "artifact": {
             "size": 1128681,
             "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/mod--sodium-neoforge-0.9.1%2Bmc26.2.jar?v=99211fc2a1d9",
             "path": "mods/sodium-neoforge-0.9.1+mc26.2.jar"
           }
         },
@@ -2110,7 +2110,7 @@
           "artifact": {
             "size": 325,
             "MD5": "d977c91da0f0170d3b216d839cf4a4e5",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-client.toml?v=55f3d3ecfd46",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-client.toml?v=55f3d3ecfd46",
             "path": "config/camera-client.toml"
           }
         },
@@ -2121,7 +2121,7 @@
           "artifact": {
             "size": 1170,
             "MD5": "91065ed0f803b0e5b9ab167b278a6e8d",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-server.toml?v=d706ac615a38",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--camera-server.toml?v=d706ac615a38",
             "path": "config/camera-server.toml"
           }
         },
@@ -2132,7 +2132,7 @@
           "artifact": {
             "size": 46,
             "MD5": "a19220a7d54c2d1497922436a544fdf8",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--cushionbackport.json?v=ebe13ba32ec1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--cushionbackport.json?v=ebe13ba32ec1",
             "path": "config/cushionbackport.json"
           }
         },
@@ -2143,7 +2143,7 @@
           "artifact": {
             "size": 3,
             "MD5": "8a80554c91d9fca8acb82f023de02f11",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--dynamic_fps.json?v=ca3d163bab05",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -2154,7 +2154,7 @@
           "artifact": {
             "size": 1916881,
             "MD5": "d74de919043051d8733e77d4c25ecc78",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--emotecraft.json?v=93a6a2e0d924",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--emotecraft.json?v=93a6a2e0d924",
             "path": "config/emotecraft.json"
           }
         },
@@ -2165,7 +2165,7 @@
           "artifact": {
             "size": 2228,
             "MD5": "da0e5b077b77efa3249c47e9b2e5a4ae",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--entityculling.json?v=e92e6772c4b6",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--entityculling.json?v=e92e6772c4b6",
             "path": "config/entityculling.json"
           }
         },
@@ -2176,7 +2176,7 @@
           "artifact": {
             "size": 809,
             "MD5": "fcd4183c63696df4a3cab78dc24853b6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--ferritecore-mixin.toml?v=f5659957a258",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -2187,7 +2187,7 @@
           "artifact": {
             "size": 1539,
             "MD5": "e41ec763d695fc5fc26f409c9bf43593",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--fml.toml?v=e0d3edd400c6",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--fml.toml?v=e0d3edd400c6",
             "path": "config/fml.toml"
           }
         },
@@ -2198,7 +2198,7 @@
           "artifact": {
             "size": 912,
             "MD5": "2f8d26126729cff4a74e4f1248d28b8a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--immediatelyfast.json?v=869c9d9969c0",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -2209,7 +2209,7 @@
           "artifact": {
             "size": 31,
             "MD5": "670592b1394f12ab96d8432f14ac8dd9",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris-excluded.json?v=4d3264b58c50",
             "path": "config/iris-excluded.json"
           }
         },
@@ -2219,7 +2219,7 @@
           "type": "File",
           "artifact": {
             "size": 276,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris.properties?v=5885b3f1ae0c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--iris.properties?v=5885b3f1ae0c",
             "path": "config/iris.properties"
           }
         },
@@ -2230,7 +2230,7 @@
           "artifact": {
             "size": 267,
             "MD5": "65a61a8f2201e0a571d48a7f0295da19",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--lithium.properties?v=6cf6f8372007",
             "path": "config/lithium.properties"
           }
         },
@@ -2241,7 +2241,7 @@
           "artifact": {
             "size": 4764,
             "MD5": "c5e1ef4e2ec8d6702c25b026ec64e530",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--modernfix-mixins.properties?v=ee1f0f604663",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--modernfix-mixins.properties?v=ee1f0f604663",
             "path": "config/modernfix-mixins.properties"
           }
         },
@@ -2252,7 +2252,7 @@
           "artifact": {
             "size": 495,
             "MD5": "22d737e6f7603d86e8f71ad9d7fcb6fa",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--moreculling.toml?v=976a76d9aeb5",
             "path": "config/moreculling.toml"
           }
         },
@@ -2263,7 +2263,7 @@
           "artifact": {
             "size": 1455,
             "MD5": "a2b3d0add063f2cdc1fd437946c1e967",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-client.toml?v=1f69c6a59370",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-client.toml?v=1f69c6a59370",
             "path": "config/neoforge-client.toml"
           }
         },
@@ -2274,7 +2274,7 @@
           "artifact": {
             "size": 155,
             "MD5": "120c3c4a8722495d1ff012a2678e46fd",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-common.toml?v=caa885bd719c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-common.toml?v=caa885bd719c",
             "path": "config/neoforge-common.toml"
           }
         },
@@ -2285,7 +2285,7 @@
           "artifact": {
             "size": 1178,
             "MD5": "8494ac71281785a6e97526eef4b1d647",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-server.toml?v=581d7b0b184d",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--neoforge-server.toml?v=581d7b0b184d",
             "path": "config/neoforge-server.toml"
           }
         },
@@ -2296,7 +2296,7 @@
           "artifact": {
             "size": 427,
             "MD5": "0c329b21342b22ed07398b3fcf8775ac",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-fingerprint.json?v=b15916408d27&revision=1",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -2307,7 +2307,7 @@
           "artifact": {
             "size": 258,
             "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-mixins.properties?v=b627c4456e6f",
             "path": "config/sodium-mixins.properties"
           }
         },
@@ -2318,7 +2318,7 @@
           "artifact": {
             "size": 743,
             "MD5": "a73b2c676e2b7d75869a4e4faf046506",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--sodium-options.json?v=a254b8f531a8",
             "path": "config/sodium-options.json"
           }
         },
@@ -2329,7 +2329,7 @@
           "artifact": {
             "size": 97,
             "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--transition.json?v=60420a41571a",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--transition.json?v=60420a41571a",
             "path": "config/transition.json"
           }
         },
@@ -2340,7 +2340,7 @@
           "artifact": {
             "size": 47,
             "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--trender.json?v=0a282f3623f7",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/config--trender.json?v=0a282f3623f7",
             "path": "config/trender.json"
           }
         },
@@ -2351,7 +2351,7 @@
           "artifact": {
             "size": 19084252,
             "MD5": "884c24415e5d078988760e0b81a20723",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/resourcepacks--pack.zip?v=19bcf55b4b45",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/resourcepacks--pack.zip?v=19bcf55b4b45",
             "path": "resourcepacks/pack.zip"
           }
         },
@@ -2361,7 +2361,7 @@
           "type": "File",
           "artifact": {
             "size": 154,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceCrimeScene-26.2-options.txt",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6/AliceCrimeScene-26.2-options.txt",
             "path": "options.txt"
           }
         },
@@ -2372,7 +2372,7 @@
           "artifact": {
             "size": 108,
             "MD5": "9b5f0f5f6fdab2dcaffbaa62f90ac76b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-servers.dat?v=c524ef78cd43",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-servers.dat?v=c524ef78cd43",
             "path": "servers.dat"
           }
         },
@@ -2383,7 +2383,7 @@
           "artifact": {
             "size": 994161,
             "MD5": "6a0a9a9b8008151dd7a9fc0a620abd65",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--01.emotecraft?v=e598727f14f3",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--01.emotecraft?v=e598727f14f3",
             "path": "emotes/Zero Two Wiggle.emotecraft"
           }
         },
@@ -2394,7 +2394,7 @@
           "artifact": {
             "size": 68184,
             "MD5": "a9f442f1a238074658d6aa34a28afda9",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--02.emotecraft?v=3d1d630b5f52",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--02.emotecraft?v=3d1d630b5f52",
             "path": "emotes/Naruto Run (Movement) (Multiverse) (Naruto).emotecraft"
           }
         },
@@ -2405,7 +2405,7 @@
           "artifact": {
             "size": 59234,
             "MD5": "0acf9fa22fb28041ac927be6d8f7149b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--03.emotecraft?v=8753886699b9",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--03.emotecraft?v=8753886699b9",
             "path": "emotes/Twerk (Dance).emotecraft"
           }
         },
@@ -2416,7 +2416,7 @@
           "artifact": {
             "size": 74488,
             "MD5": "6aeaec9567a2a114f07b68afa4517c1e",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--04.emotecraft?v=615376dd0c7c",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--04.emotecraft?v=615376dd0c7c",
             "path": "emotes/Brakedance.emotecraft"
           }
         },
@@ -2427,7 +2427,7 @@
           "artifact": {
             "size": 41712,
             "MD5": "5358be88c47dfdfa22a62a69722a1bad",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--05.emotecraft?v=63d609238cf5",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--05.emotecraft?v=63d609238cf5",
             "path": "emotes/Macarena (Dance).emotecraft"
           }
         },
@@ -2438,7 +2438,7 @@
           "artifact": {
             "size": 75427,
             "MD5": "709208df2aa54cafb5c983330142c281",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--06.emotecraft?v=b2b7f49adcf1",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--06.emotecraft?v=b2b7f49adcf1",
             "path": "emotes/Dance Moves.emotecraft"
           }
         },
@@ -2449,7 +2449,7 @@
           "artifact": {
             "size": 42350,
             "MD5": "47681f202fed11b6a12ceb02cc75fe01",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--07.emotecraft?v=b602ad1af6da",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--07.emotecraft?v=b602ad1af6da",
             "path": "emotes/Skibidi dob dob (Dance).emotecraft"
           }
         },
@@ -2460,7 +2460,7 @@
           "artifact": {
             "size": 81524,
             "MD5": "b56a2dc05b3c39a56f439e8c62ba5b16",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--08.emotecraft?v=5f57a91dfbab",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/emote--08.emotecraft?v=5f57a91dfbab",
             "path": "emotes/Jiggle your ass (Dance).emotecraft"
           }
         },
@@ -2592,7 +2592,7 @@
           "artifact": {
             "size": 385799,
             "MD5": "4da6a2157017e61dbe4b43b18d63a429",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.2/apexcore-26.2.3-youer.1.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.2/apexcore-26.2.3-youer.1.jar",
             "path": "mods/apexcore-26.2.3-youer.1.jar"
           }
         },
@@ -2603,7 +2603,7 @@
           "artifact": {
             "size": 8271373,
             "MD5": "b313ca397ba1dfafbbcaea111b432a3f",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.2/alice-legacy-ports-26.2.1.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.2/alice-legacy-ports-26.2.1.jar",
             "path": "mods/alice-legacy-ports-26.2.1.jar"
           }
         },
@@ -2614,7 +2614,7 @@
           "artifact": {
             "size": 996875,
             "MD5": "a4defb037190f54d56654cae26d32872",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.2/immersive-furniture-0.3.3%2B26.2.alice.1.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.2/immersive-furniture-0.3.3%2B26.2.alice.1.jar",
             "path": "mods/immersive-furniture-0.3.3+26.2.alice.1.jar"
           }
         },
@@ -2625,7 +2625,7 @@
           "artifact": {
             "size": 32234,
             "MD5": "5da1351807adabac3f6972b76b30fc49",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-v1.0.4/alice-crime-corpses-26.2.1.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.4/alice-crime-corpses-26.2.1.jar",
             "path": "mods/alice-crime-corpses-26.2.1.jar"
           }
         },
@@ -2647,7 +2647,7 @@
           "artifact": {
             "size": 27632,
             "MD5": "1d4431420e34c832e061359b6ecea704",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-ui-v1.2.3/alice-crime-ui-26.2.7.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-ui-v1.2.3/alice-crime-ui-26.2.7.jar",
             "path": "mods/alice-crime-ui-26.2.7.jar"
           }
         }
@@ -2657,11 +2657,11 @@
       "id": "AliceVrMinigames-26.2",
       "name": "버컴퍼니 미니게임",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/server-branding-v1.0.48/minigames.png",
+      "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/server-branding-v1.0.48/minigames.png",
       "discord": {
         "shortId": "버컴퍼니 미니게임",
         "largeImageText": "버컴퍼니 미니게임",
-        "largeImageKey": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/server-branding-v1.0.48/minigames.png"
+        "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/server-branding-v1.0.48/minigames.png"
       },
       "version": "2.0.1",
       "address": "127.0.0.1:25568",
@@ -2695,7 +2695,7 @@
               "artifact": {
                 "size": 11561,
                 "MD5": "40c09b8fbb88cfa6639d1557f83cf2b5",
-                "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
+                "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15/neoforge-26.2.0.60-version.json"
               }
             },
             {
@@ -3004,7 +3004,7 @@
           "artifact": {
             "size": 1135847,
             "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/cloth-config-26.2.155.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/cloth-config-26.2.155.jar",
             "path": "mods/cloth-config-26.2.155.jar"
           }
         },
@@ -3015,7 +3015,7 @@
           "artifact": {
             "size": 185732,
             "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar",
             "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar"
           }
         },
@@ -3026,7 +3026,7 @@
           "artifact": {
             "size": 1202163,
             "MD5": "c44b0ba54d274a580cd663b1ebccf050",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/emotecraft-for-MC26.2-3.4.0-b.build.162.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/emotecraft-for-MC26.2-3.4.0-b.build.162.jar",
             "path": "mods/emotecraft-for-MC26.2-3.4.0-b.build.162.jar"
           }
         },
@@ -3037,7 +3037,7 @@
           "artifact": {
             "size": 11187,
             "MD5": "d0077b329847194486167639b26f715a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/fast-ip-ping-v1.0.11-mc26.1.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/fast-ip-ping-v1.0.11-mc26.1.2.jar",
             "path": "mods/fast-ip-ping-v1.0.11-mc26.1.2.jar"
           }
         },
@@ -3048,7 +3048,7 @@
           "artifact": {
             "size": 71947,
             "MD5": "b2fde13466c357340262d60a213f8805",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ferritecore-9.0.0-neoforge.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ferritecore-9.0.0-neoforge.jar",
             "path": "mods/ferritecore-9.0.0-neoforge.jar"
           }
         },
@@ -3059,7 +3059,7 @@
           "artifact": {
             "size": 100062,
             "MD5": "6b3af3891b67f8e6cac866e40898b486",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar",
             "path": "mods/ImmediatelyFast-NeoForge-1.16.3+26.2.jar"
           }
         },
@@ -3070,7 +3070,7 @@
           "artifact": {
             "size": 2751198,
             "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/iris-neoforge-1.11.2%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/iris-neoforge-1.11.2%2Bmc26.2.jar",
             "path": "mods/iris-neoforge-1.11.2+mc26.2.jar"
           }
         },
@@ -3081,7 +3081,7 @@
           "artifact": {
             "size": 75265,
             "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
             "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
           }
         },
@@ -3092,7 +3092,7 @@
           "artifact": {
             "size": 904073,
             "MD5": "76dd1e0241a8a350ff3a249502243fd2",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/lithium-neoforge-0.25.3%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/lithium-neoforge-0.25.3%2Bmc26.2.jar",
             "path": "mods/lithium-neoforge-0.25.3+mc26.2.jar"
           }
         },
@@ -3103,7 +3103,7 @@
           "artifact": {
             "size": 349733,
             "MD5": "a55e6bfed0ba141f94e7743fc190f501",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/moreculling-neoforge-26.2-1.8.1.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/moreculling-neoforge-26.2-1.8.1.jar",
             "path": "mods/moreculling-neoforge-26.2-1.8.1.jar"
           }
         },
@@ -3114,7 +3114,7 @@
           "artifact": {
             "size": 419757,
             "MD5": "a993c98b0c19c7278fde4020210ec424",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar",
             "path": "mods/PlayerAnimationLibMerged-1.2.6+mc.26.2.jar"
           }
         },
@@ -3125,7 +3125,7 @@
           "artifact": {
             "size": 1128681,
             "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-neoforge-0.9.1%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-neoforge-0.9.1%2Bmc26.2.jar",
             "path": "mods/sodium-neoforge-0.9.1+mc26.2.jar"
           }
         },
@@ -3136,7 +3136,7 @@
           "artifact": {
             "size": 3,
             "MD5": "8a80554c91d9fca8acb82f023de02f11",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/dynamic_fps.json",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/dynamic_fps.json",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -3147,7 +3147,7 @@
           "artifact": {
             "size": 1916881,
             "MD5": "d74de919043051d8733e77d4c25ecc78",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/emotecraft.json",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/emotecraft.json",
             "path": "config/emotecraft.json"
           }
         },
@@ -3158,7 +3158,7 @@
           "artifact": {
             "size": 809,
             "MD5": "fcd4183c63696df4a3cab78dc24853b6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ferritecore-mixin.toml",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ferritecore-mixin.toml",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -3169,7 +3169,7 @@
           "artifact": {
             "size": 1539,
             "MD5": "e41ec763d695fc5fc26f409c9bf43593",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/fml.toml",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/fml.toml",
             "path": "config/fml.toml"
           }
         },
@@ -3180,7 +3180,7 @@
           "artifact": {
             "size": 912,
             "MD5": "2f8d26126729cff4a74e4f1248d28b8a",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/immediatelyfast.json",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/immediatelyfast.json",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -3191,7 +3191,7 @@
           "artifact": {
             "size": 31,
             "MD5": "670592b1394f12ab96d8432f14ac8dd9",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/iris-excluded.json",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/iris-excluded.json",
             "path": "config/iris-excluded.json"
           }
         },
@@ -3202,7 +3202,7 @@
           "artifact": {
             "path": "config/iris.properties",
             "size": 276,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.96/iris.properties"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.96/iris.properties"
           }
         },
         {
@@ -3212,7 +3212,7 @@
           "artifact": {
             "size": 267,
             "MD5": "65a61a8f2201e0a571d48a7f0295da19",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/lithium.properties",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/lithium.properties",
             "path": "config/lithium.properties"
           }
         },
@@ -3223,7 +3223,7 @@
           "artifact": {
             "size": 495,
             "MD5": "22d737e6f7603d86e8f71ad9d7fcb6fa",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/moreculling.toml",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/moreculling.toml",
             "path": "config/moreculling.toml"
           }
         },
@@ -3234,7 +3234,7 @@
           "artifact": {
             "size": 1455,
             "MD5": "a2b3d0add063f2cdc1fd437946c1e967",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/neoforge-client.toml",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/neoforge-client.toml",
             "path": "config/neoforge-client.toml"
           }
         },
@@ -3245,7 +3245,7 @@
           "artifact": {
             "size": 155,
             "MD5": "120c3c4a8722495d1ff012a2678e46fd",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/neoforge-common.toml",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/neoforge-common.toml",
             "path": "config/neoforge-common.toml"
           }
         },
@@ -3256,7 +3256,7 @@
           "artifact": {
             "size": 258,
             "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-mixins.properties",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-mixins.properties",
             "path": "config/sodium-mixins.properties"
           }
         },
@@ -3267,7 +3267,7 @@
           "artifact": {
             "size": 743,
             "MD5": "a73b2c676e2b7d75869a4e4faf046506",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-options.json",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/sodium-options.json",
             "path": "config/sodium-options.json"
           }
         },
@@ -3278,7 +3278,7 @@
           "artifact": {
             "path": "options.txt",
             "size": 135,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.96/options.txt"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.96/options.txt"
           }
         },
         {
@@ -3288,7 +3288,7 @@
           "artifact": {
             "size": 1133936,
             "MD5": "f1f6a07f62cf668b17c333d4c80b6f6f",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/BSL_v10.1.5.zip",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/BSL_v10.1.5.zip",
             "path": "shaderpacks/BSL_v10.1.5.zip"
           }
         },
@@ -3299,7 +3299,7 @@
           "artifact": {
             "size": 552945,
             "MD5": "5cd436e5bebc013fa1781b3cd6a9aad6",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ComplementaryReimagined_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ComplementaryReimagined_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryReimagined_r5.9.1.zip"
           }
         },
@@ -3310,7 +3310,7 @@
           "artifact": {
             "size": 552949,
             "MD5": "af14f654ae0f496d0aaa2deac0faff65",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ComplementaryUnbound_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/ComplementaryUnbound_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryUnbound_r5.9.1.zip"
           }
         },
@@ -3320,7 +3320,7 @@
           "artifact": {
             "path": "servers.dat",
             "size": 83,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/vr-minigames-servers.dat"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/vr-minigames-servers.dat"
           }
         },
         {
@@ -3331,7 +3331,7 @@
             "path": "mods/AliceVrGames-1.0.0.jar",
             "size": 403158,
             "MD5": "a1f26c911f7aa9de85eca2125ba30469",
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/vr-hud-refresh-v1.0.127/AliceVrGames-1.0.0.jar"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-hud-refresh-v1.0.127/AliceVrGames-1.0.0.jar"
           }
         },
         {
@@ -3362,7 +3362,7 @@
       "id": "BurcomPvP-26.3",
       "name": "버컴퍼니 PvP 연습",
       "description": "Minecraft 26.3 · Fabric",
-      "icon": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcompany-branding-v2/burcompany-pvp.png",
+      "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcompany-branding-v2/burcompany-pvp.png",
       "version": "1.2.20",
       "address": "alicehiyam.dreamcraft.kr",
       "minecraftVersion": "26.3",
@@ -3380,7 +3380,7 @@
       "discord": {
         "shortId": "버컴퍼니 PvP 연습",
         "largeImageText": "버컴퍼니 PvP 연습",
-        "largeImageKey": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcompany-branding-v2/burcompany-pvp.png"
+        "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcompany-branding-v2/burcompany-pvp.png"
       },
       "modules": [
         {
@@ -3459,7 +3459,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3263,
-                "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcom-pvp-v1.0.0/fabric-26.3-0.19.5.json",
+                "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-v1.0.0/fabric-26.3-0.19.5.json",
                 "MD5": "3403d00511d55189b7254fb45d93fec7"
               }
             }
@@ -3582,7 +3582,7 @@
           "artifact": {
             "path": "mods/burcom-pvp-hud-1.0.0.jar",
             "size": 17778,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcom-pvp-hud-v1.0.15/burcom-pvp-hud-1.0.15.jar",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-hud-v1.0.15/burcom-pvp-hud-1.0.15.jar",
             "MD5": "539e8a72c403608b0a63f9b884db91e1"
           }
         },
@@ -3593,7 +3593,7 @@
           "artifact": {
             "path": "options.txt",
             "size": 137,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcom-pvp-korean-defaults-v1/pvp-options.txt"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-korean-defaults-v1/pvp-options.txt"
           }
         },
         {
@@ -3603,7 +3603,7 @@
           "artifact": {
             "path": "config/iris.properties",
             "size": 66,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcom-pvp-v1.0.0/pvp-iris.properties"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-v1.0.0/pvp-iris.properties"
           }
         },
         {
@@ -3624,7 +3624,7 @@
           "artifact": {
             "path": "servers.dat",
             "size": 87,
-            "url": "https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/burcom-pvp-connect-v1/pvp-servers.dat"
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-connect-v1/pvp-servers.dat"
           }
         },
         {

@@ -14,7 +14,7 @@ const launcherRoot = process.env.ALICE_LAUNCHER_ROOT
     || 'C:\\Users\\gptnr\\Desktop\\앨리스런쳐'
 
 const releaseTag = 'client-v1.0.0'
-const releaseBase = `https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/${releaseTag}`
+const releaseBase = `https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/${releaseTag}`
 const neoForgeVersion = '26.2.0.59'
 const minecraftVersion = '26.2'
 const installer = path.join(prismLibraries, 'net', 'neoforged', 'neoforge', neoForgeVersion, `neoforge-${neoForgeVersion}-installer.jar`)

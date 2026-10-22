@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const records = JSON.parse(fs.readFileSync(path.join(root, 'emote-manifest.json'), 'utf8')).emotes
-const response = await fetch('https://github.com/Dot0420/AliceGameLand-Distribution/releases/latest/download/distribution.json')
+const response = await fetch('https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/latest/download/distribution.json')
 assert.ok(response.ok)
 const remote = await response.json()
 const modules = remote.servers[0].modules

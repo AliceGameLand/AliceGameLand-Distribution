@@ -8,7 +8,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const delivery = process.env.ALICE_DIAMOND_DELIVERY ? path.resolve(process.env.ALICE_DIAMOND_DELIVERY) : path.resolve(root, '../alicehiyam-server/alice-diamond/deployment')
 const assets = path.join(root, 'diamond-release-assets')
 const cache = path.join(delivery, 'launcher', 'libraries')
-const base = 'https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/diamond-v1.0.15'
+const base = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-v1.0.15'
 const diamondAddress = process.env.ALICE_DIAMOND_ADDRESS ?? 'alicehiyam.dreamcraft.kr'
 const version = '26.2.0.60'
 await fs.mkdir(assets, { recursive: true })

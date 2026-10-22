@@ -8,7 +8,7 @@ const distribution = JSON.parse(fs.readFileSync(path.join(root, 'distribution.js
 let changed = 0
 function walk(modules) {
     for(const module of modules) {
-        if(module.artifact?.url?.startsWith('https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/')) {
+        if(module.artifact?.url?.startsWith('https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/')) {
             const url = new URL(module.artifact.url)
             const asset = decodeURIComponent(url.pathname.split('/').at(-1))
             const bytes = fs.readFileSync(path.join(root, 'release-assets', asset))

@@ -6,7 +6,7 @@ import assert from 'node:assert/strict'
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..')
 const filename=path.join(root,'distribution.json')
 const distribution=JSON.parse(await fs.readFile(filename,'utf8'))
-const response=await fetch('https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/client-v1.0.0/distribution.json?verify='+Date.now())
+const response=await fetch('https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/distribution.json?verify='+Date.now())
 assert.ok(response.ok,'Remote distribution download failed')
 assert.deepEqual(await response.json(),distribution,'Remote distribution differs; refusing overwrite')
 const backup=path.join(root,'backups','preserve-server-list-'+Date.now())

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const stage = path.join(root, 'validation-runtime', 'tutorial-fix', 'publish')
-const base = 'https://github.com/Dot0420/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6'
+const base = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-tutorial-v1.2.6'
 const original = await fs.readFile(path.join(root, 'validation-runtime/tutorial-fix/distribution.json'), 'utf8')
 const distribution = JSON.parse(original)
 assert.equal(distribution.version, '1.0.41')
