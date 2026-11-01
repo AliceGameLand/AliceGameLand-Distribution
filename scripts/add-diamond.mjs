@@ -120,7 +120,8 @@ const backup = path.join(delivery,'backups',`distribution-before-diamond-${diges
 await fs.writeFile(backup,original,{flag:'wx'}).catch(e => { if(e.code !== 'EEXIST')throw e })
 const server = { id:'AliceDiamond-26.2',name:'버컴퍼니 다이아몬드 대결',description:'다이아몬드 대결 · Minecraft 26.2 · NeoForge', icon:existing.icon,discord:{shortId:'다이아몬드 대결',largeImageText:'버컴퍼니 다이아몬드 대결',largeImageKey:existing.discord?.largeImageKey ?? existing.icon},version:'1.0.15',address:diamondAddress,minecraftVersion:'26.2',javaOptions:structuredClone(existing.javaOptions),mainServer:true,autoconnect:true,modules }
 distro.version = '1.0.15'
-distro.servers = [server,...distro.servers.filter(s => s.id !== server.id).map(s => ({...s,mainServer:false}))]
+const mainServerId = distro.servers.some(s => s.id === 'AliceVrMinigames-26.2') ? 'AliceVrMinigames-26.2' : server.id
+distro.servers = [server,...distro.servers.filter(s => s.id !== server.id)].map(s => ({...s,mainServer:s.id === mainServerId}))
 const result = JSON.stringify(distro,null,2)+'\n'
 await fs.writeFile(path.join(root,'distribution.json'),result)
 await fs.writeFile(path.join(assets,'distribution.json'),result)

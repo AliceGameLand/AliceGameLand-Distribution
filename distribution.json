@@ -26,7 +26,7 @@
           "minimum": 2048
         }
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": true,
       "modules": [
         {
@@ -2675,7 +2675,7 @@
           "minimum": 2048
         }
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
