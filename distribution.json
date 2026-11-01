@@ -15,7 +15,7 @@
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/diamond.png"
       },
       "version": "1.0.46",
-      "address": "alicehiyam.dreamcraft.kr",
+      "address": "alicehiyam-oracle.dreamcraft.kr",
       "minecraftVersion": "26.2",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -683,8 +683,8 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 105,
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/diamond-launcher-v1.0.39/diamond-servers.dat?v=d7a998001f6a",
+            "size": 112,
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-oracle-dns-split-v1.0.230/AliceDiamond-26.2.dat",
             "path": "servers.dat"
           }
         }
@@ -701,7 +701,7 @@
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/server-icon.png"
       },
       "version": "1.0.14",
-      "address": "alicehiyam.dreamcraft.kr",
+      "address": "alicehiyam-oracle.dreamcraft.kr",
       "minecraftVersion": "26.2",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -1466,8 +1466,8 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 113,
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/client-v1.0.0/servers.dat?v=40ba21e9ce79",
+            "size": 120,
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-oracle-dns-split-v1.0.230/AliceGameLand-26.2.dat",
             "path": "servers.dat"
           }
         },
@@ -1605,7 +1605,7 @@
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png"
       },
       "version": "1.2.8",
-      "address": "146.56.114.53:25566",
+      "address": "alicehiyam-oracle.dreamcraft.kr:25566",
       "minecraftVersion": "26.2",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -2370,9 +2370,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 108,
-            "MD5": "9b5f0f5f6fdab2dcaffbaa62f90ac76b",
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-servers.dat?v=c524ef78cd43",
+            "size": 126,
+            "MD5": "b29b6d9734e87dac08eab9deae85ce21",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-oracle-dns-split-v1.0.230/AliceCrimeScene-26.2.dat",
             "path": "servers.dat"
           }
         },
@@ -2664,7 +2664,7 @@
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/server-branding-v1.0.48/minigames.png"
       },
       "version": "2.0.1",
-      "address": "127.0.0.1:25568",
+      "address": "alicehiyam.dreamcraft.kr:25567",
       "minecraftVersion": "26.2",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -3319,8 +3319,8 @@
           "type": "File",
           "artifact": {
             "path": "servers.dat",
-            "size": 83,
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-minigames-v1.0.1/vr-minigames-servers.dat"
+            "size": 98,
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-port25567-8g-v1.0.231/minigames-servers.dat"
           }
         },
         {
@@ -3364,7 +3364,7 @@
       "description": "Minecraft 26.3 · Fabric",
       "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcompany-branding-v2/burcompany-pvp.png",
       "version": "1.2.20",
-      "address": "alicehiyam.dreamcraft.kr",
+      "address": "alicehiyam-oracle.dreamcraft.kr",
       "minecraftVersion": "26.3",
       "javaOptions": {
         "supported": ">=25.x <26",
@@ -3623,8 +3623,8 @@
           "type": "File",
           "artifact": {
             "path": "servers.dat",
-            "size": 87,
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/burcom-pvp-connect-v1/pvp-servers.dat"
+            "size": 94,
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-oracle-dns-split-v1.0.230/BurcomPvP-26.3.dat"
           }
         },
         {
