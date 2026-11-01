@@ -1,5 +1,5 @@
 {
-  "version": "1.0.127",
+  "version": "1.0.242",
   "discord": {
     "clientId": "1552647446025216110"
   },
@@ -3329,9 +3329,9 @@
           "type": "File",
           "artifact": {
             "path": "mods/AliceVrGames-1.0.0.jar",
-            "size": 403158,
-            "MD5": "a1f26c911f7aa9de85eca2125ba30469",
-            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-hud-refresh-v1.0.127/AliceVrGames-1.0.0.jar"
+            "size": 3394148,
+            "MD5": "b201f11585984ba4ed89a4f077fa2b37",
+            "url": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/vr-hide-map-refresh-v1.0.242/AliceVrGames-1.0.0.jar"
           }
         },
         {
