@@ -17,9 +17,9 @@ function update(distribution) {
     const crime = distribution.servers.find(server => server.id === 'AliceCrimeScene-26.2')
     const pvp = distribution.servers.find(server => server.id === 'BurcomPvP-26.3')
     assert.ok(crime && pvp)
-    crime.name = '컨텐츠'
-    crime.discord.shortId = '컨텐츠'
-    crime.discord.largeImageText = '컨텐츠'
+    crime.name = '혜안져스 크라임씬'
+    crime.discord.shortId = '혜안져스 크라임씬'
+    crime.discord.largeImageText = '혜안져스 크라임씬'
     crime.version = bump(crime.version)
     pvp.description = 'Minecraft 26.3 · Fabric'
     pvp.version = bump(pvp.version)

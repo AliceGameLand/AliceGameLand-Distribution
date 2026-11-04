@@ -23,12 +23,12 @@ if(!gameLand || !diamond) throw new Error('GameLand and Diamond server entries a
 const existingCrime = distribution.servers.find(server => server.id === 'AliceCrimeScene-26.2')
 const crime = structuredClone(existingCrime ?? gameLand)
 crime.id = 'AliceCrimeScene-26.2'
-crime.name = '컨텐츠'
+crime.name = '혜안져스 크라임씬'
 crime.description = 'Minecraft 26.2 · NeoForge'
 crime.icon = icons.crime
 crime.discord = {
-    shortId: '컨텐츠',
-    largeImageText: '컨텐츠',
+    shortId: '혜안져스 크라임씬',
+    largeImageText: '혜안져스 크라임씬',
     largeImageKey: icons.crime
 }
 crime.version = existingCrime?.version ?? '1.0.1'

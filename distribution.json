@@ -1,5 +1,5 @@
 {
-  "version": "1.0.242",
+  "version": "1.0.243",
   "discord": {
     "clientId": "1552647446025216110"
   },
@@ -1596,15 +1596,15 @@
     },
     {
       "id": "AliceCrimeScene-26.2",
-      "name": "컨텐츠",
+      "name": "혜안져스 크라임씬",
       "description": "Minecraft 26.2 · NeoForge",
       "icon": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png",
       "discord": {
-        "shortId": "컨텐츠",
-        "largeImageText": "컨텐츠",
+        "shortId": "혜안져스 크라임씬",
+        "largeImageText": "혜안져스 크라임씬",
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/crime-v1.0.1/crime-scene.png"
       },
-      "version": "1.2.8",
+      "version": "1.2.11",
       "address": "alicehiyam-oracle.dreamcraft.kr:25566",
       "minecraftVersion": "26.2",
       "javaOptions": {
