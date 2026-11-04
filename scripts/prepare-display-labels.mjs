@@ -23,6 +23,7 @@ function update(distribution) {
     crime.version = bump(crime.version)
     pvp.description = 'Minecraft 26.3 · Fabric'
     pvp.version = bump(pvp.version)
+    distribution.servers.sort((a, b) => a.name.localeCompare(b.name, 'ko'))
     distribution.version = bump(distribution.version)
 }
 update(published)

@@ -63,6 +63,7 @@ diamond.discord.largeImageKey = icons.diamond
 distribution.version = distribution.version === '1.0.16' ? '1.0.17' : distribution.version
 distribution.servers = distribution.servers.filter(server => server.id !== crime.id)
 distribution.servers.push(crime)
+distribution.servers.sort((a, b) => a.name.localeCompare(b.name, 'ko'))
 
 const stagedAssets = path.join(root, 'crime-release-assets')
 await fs.mkdir(stagedAssets, { recursive: true })
