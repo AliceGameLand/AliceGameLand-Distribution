@@ -4,9 +4,11 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const distribution = JSON.parse(fs.readFileSync(path.join(root, 'distribution.json'), 'utf8'))
-const manifest = JSON.parse(fs.readFileSync(path.join(root, 'mod-manifest.json'), 'utf8'))
-const assets = path.join(root, 'release-assets')
+// Verify the isolated generation output, not the live multi-server manifest.
+const outputRoot = path.join(root, 'generated', 'client-v1.0.0')
+const distribution = JSON.parse(fs.readFileSync(path.join(outputRoot, 'distribution.json'), 'utf8'))
+const manifest = JSON.parse(fs.readFileSync(path.join(outputRoot, 'mod-manifest.json'), 'utf8'))
+const assets = path.join(outputRoot, 'release-assets')
 
 if(distribution.servers.length !== 1) throw new Error('Expected exactly one server.')
 const server = distribution.servers[0]
@@ -15,7 +17,7 @@ const packBytes = fs.readFileSync(path.join(assets, 'resourcepacks--pack.zip'))
 if(!packModule || packModule.artifact.size !== packBytes.length
     || packModule.artifact.MD5 !== crypto.createHash('md5').update(packBytes).digest('hex'))
     throw new Error('Resource pack size/hash mismatch.')
-if(server.address !== 'alicehiyam.dreamcraft.kr:25567') throw new Error('Unexpected server address.')
+if(server.address !== 'alicehiyam.dreamcraft.kr') throw new Error('Unexpected server address.')
 if(server.minecraftVersion !== '26.2') throw new Error('Unexpected Minecraft version.')
 if(!server.modules.some(module => module.type === 'NeoForge')) throw new Error('NeoForge module missing.')
 const optionsModule = server.modules.find(module => module.artifact?.path === 'options.txt')
@@ -48,7 +50,7 @@ for(const name of requiredAssets) {
 const serversData = fs.readFileSync(path.join(assets, 'servers.dat'))
 if(serversData[0] !== 10) throw new Error('servers.dat must use uncompressed NBT.')
 if(!serversData.includes(Buffer.from('앨리스의 게임랜드'))) throw new Error('Server list name missing.')
-if(!serversData.includes(Buffer.from('alicehiyam.dreamcraft.kr:25567'))) throw new Error('Server list address missing.')
+if(!serversData.includes(Buffer.from('alicehiyam.dreamcraft.kr'))) throw new Error('Server list address missing.')
 
 console.log('Distribution verification passed.')
 console.log(`Server: ${server.name} (${server.address})`)

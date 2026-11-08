@@ -6,19 +6,18 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const prismMinecraft = process.env.ALICE_PRISM_MINECRAFT
-    || 'C:\\Users\\gptnr\\AppData\\Roaming\\PrismLauncher\\instances\\26.2(2)\\minecraft'
-const prismLibraries = process.env.ALICE_PRISM_LIBRARIES
-    || 'C:\\Users\\gptnr\\AppData\\Roaming\\PrismLauncher\\libraries'
-const launcherRoot = process.env.ALICE_LAUNCHER_ROOT
-    || 'C:\\Users\\gptnr\\Desktop\\앨리스런쳐'
+// Generation reads only the dedicated deployment source, never a personal instance.
+const sourceRoot = path.resolve(process.env.ALICE_DISTRIBUTION_SOURCE || path.join(root, 'distribution-source'))
+const minecraftSource = path.join(sourceRoot, 'minecraft')
+const librarySource = path.join(sourceRoot, 'libraries')
+const outputRoot = path.join(root, 'generated', 'client-v1.0.0')
 
 const releaseTag = 'client-v1.0.0'
 const releaseBase = `https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/${releaseTag}`
 const neoForgeVersion = '26.2.0.59'
 const minecraftVersion = '26.2'
-const installer = path.join(prismLibraries, 'net', 'neoforged', 'neoforge', neoForgeVersion, `neoforge-${neoForgeVersion}-installer.jar`)
-const releaseAssets = path.join(root, 'release-assets')
+const installer = path.join(librarySource, 'net', 'neoforged', 'neoforge', neoForgeVersion, `neoforge-${neoForgeVersion}-installer.jar`)
+const releaseAssets = path.join(outputRoot, 'release-assets')
 const clientDefaults = path.join(root, 'client-defaults')
 
 const licenses = {
@@ -110,7 +109,7 @@ function readInstallerJson(entry) {
 
 function libraryModule(library, classpath = true) {
     const info = library.downloads.artifact
-    const local = path.join(prismLibraries, ...info.path.split('/'))
+    const local = path.join(librarySource, ...info.path.split('/'))
     if(!fs.existsSync(local)) {
         throw new Error(`Missing NeoForge runtime library: ${local}`)
     }
@@ -140,8 +139,13 @@ if(!fs.existsSync(installer)) {
     throw new Error(`NeoForge installer not found: ${installer}`)
 }
 
+// Check source inputs before creating any output; published manifests stay untouched.
+for(const required of ['minecraft/mods', 'minecraft/config', 'minecraft/resourcepacks/pack.zip', 'server-icon.png']) {
+    if(!fs.existsSync(path.join(sourceRoot, required))) throw new Error('Deployment source missing: ' + required)
+}
 const versionJson = readInstallerJson('version.json')
 const installProfile = readInstallerJson('install_profile.json')
+await fsp.mkdir(releaseAssets, { recursive: true })
 const versionManifestFile = path.join(releaseAssets, `neoforge-${neoForgeVersion}-version.json`)
 await fsp.writeFile(versionManifestFile, `${JSON.stringify(versionJson, null, 2)}\n`)
 
@@ -175,7 +179,7 @@ const neoForgeModule = {
 
 const modules = [neoForgeModule]
 const modRecords = []
-const modsDirectory = path.join(prismMinecraft, 'mods')
+const modsDirectory = path.join(minecraftSource, 'mods')
 for(const name of (await fsp.readdir(modsDirectory)).sort((a, b) => a.localeCompare(b))) {
     if(!name.endsWith('.jar')) continue
     const source = path.join(modsDirectory, name)
@@ -190,7 +194,7 @@ for(const name of (await fsp.readdir(modsDirectory)).sort((a, b) => a.localeComp
     })
 }
 
-const configDirectory = path.join(prismMinecraft, 'config')
+const configDirectory = path.join(minecraftSource, 'config')
 for(const name of (await fsp.readdir(configDirectory)).sort((a, b) => a.localeCompare(b))) {
     const override = path.join(clientDefaults, 'config', name)
     const source = fs.existsSync(override) ? override : path.join(configDirectory, name)
@@ -222,7 +226,7 @@ if(fs.existsSync(shaderManifestPath)) {
 }
 
 const defaultPack = path.join(clientDefaults, 'resourcepacks', 'pack.zip')
-const pack = fs.existsSync(defaultPack) ? defaultPack : path.join(prismMinecraft, 'resourcepacks', 'pack.zip')
+const pack = fs.existsSync(defaultPack) ? defaultPack : path.join(minecraftSource, 'resourcepacks', 'pack.zip')
 const packModule = await fileModule(pack, 'resourcepacks/pack.zip', 'resourcepacks--pack.zip')
 // All GitHub assets are content-versioned by artifact(), including this pack.
 modules.push(packModule)
@@ -249,7 +253,7 @@ const serversModule = await fileModule(serversFile, 'servers.dat', 'servers.dat'
 delete serversModule.artifact.MD5
 modules.push(serversModule)
 
-const iconSource = path.join(launcherRoot, 'app', 'assets', 'images', 'AliceGameLand.png')
+const iconSource = path.join(sourceRoot, 'server-icon.png')
 const iconUrl = await stage(iconSource, 'server-icon.png')
 
 const distribution = {
@@ -284,9 +288,9 @@ const distribution = {
 }
 
 const distributionText = `${JSON.stringify(distribution, null, 2)}\n`
-await fsp.writeFile(path.join(root, 'distribution.json'), distributionText)
+await fsp.writeFile(path.join(outputRoot, 'distribution.json'), distributionText)
 await fsp.writeFile(path.join(releaseAssets, 'distribution.json'), distributionText)
-await fsp.writeFile(path.join(root, 'mod-manifest.json'), `${JSON.stringify(modRecords, null, 2)}\n`)
+await fsp.writeFile(path.join(outputRoot, 'mod-manifest.json'), `${JSON.stringify(modRecords, null, 2)}\n`)
 
 console.log(`Generated ${modules.length} top-level modules and ${runtimeLibraries.length} NeoForge libraries.`)
 console.log(`Release assets: ${releaseAssets}`)

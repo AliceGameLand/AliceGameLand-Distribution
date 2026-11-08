@@ -41,3 +41,7 @@ distribution.json.before-*
 **/vendor/
 **/backups/
 **/validated-source/
+
+# Dedicated local deployment originals and isolated generation output
+distribution-source/
+generated/
