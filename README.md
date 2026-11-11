@@ -63,3 +63,5 @@ generated/client-v1.0.0/
 - `options.txt`, `config/iris.properties`, `servers.dat`는 MD5 검사 없이 파일이 없을 때만 내려받도록 생성합니다. 기존 사용자의 게임 옵션·셰이더 선택·서버 목록을 덮어쓰지 않습니다.
 
 서버별 모드·주소 변경은 현재 `distribution.json`과 해당 서버의 생성 스크립트를 함께 확인하세요. `scripts/add-diamond.mjs` 등 서버별 도구는 초기 단일 서버 생성기와 별도로 관리합니다.
+
+꼬리잡기 변경안을 만들려면 `node scripts/add-tail-tag.mjs`를 실행하고 `node scripts/verify-tail-tag.mjs`로 검증하세요. 결과는 `tail-tag-release-assets/`에 저장하며, 운영 목록과 공개 릴리스는 변경하지 않습니다.
