@@ -9,7 +9,7 @@ const source = distribution.servers.find(server => server.id === 'AliceCrimeScen
 assert.ok(source, 'Crime Scene server entry is required')
 assert.equal(source.minecraftVersion, '26.2')
 
-// Explicitly select utilities so future Crime Scene content mods cannot leak into Tail Tag.
+// Explicitly select utilities so future Crime Scene content mods cannot leak into Hyean Minigames 2.
 const modPrefixes = [
     // More Culling references Cloth Config's AutoConfig classes during startup.
     'cloth-config-',
@@ -40,8 +40,8 @@ for(const destination of ['options.txt', 'config/iris.properties']) {
 }
 
 const id = 'AliceTailTag-26.2'
-const name = '혜안져스 꼬리잡기'
-const icon = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/tail-tag-v1.0.0/tail-tag.png'
+const name = '혜안져스 미니게임2'
+const icon = 'https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/hyean-minigames-2-v1.0.0/hyean-minigames-2.png'
 const existing = distribution.servers.find(server => server.id === id)
 const server = {
     ...structuredClone(source), id, name, icon,
@@ -56,9 +56,9 @@ if(existing && JSON.stringify(existing.modules) !== JSON.stringify(server.module
 }
 // The shared endpoint and servers.dat intentionally follow Crime Scene.
 assert.equal(server.address, source.address)
-const stage = path.join(root, 'tail-tag-release-assets')
+const stage = path.join(root, 'hyean-minigames-2-release-assets')
 await fs.mkdir(stage, { recursive: true })
-await fs.copyFile(path.join(root, 'server-icons/tail-tag.png'), path.join(stage, 'tail-tag.png'))
+await fs.copyFile(path.join(root, 'server-icons/hyean-minigames-2.png'), path.join(stage, 'hyean-minigames-2.png'))
 
 if(existing) distribution.servers[distribution.servers.indexOf(existing)] = server
 else {
