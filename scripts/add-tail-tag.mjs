@@ -12,7 +12,7 @@ assert.equal(source.minecraftVersion, '26.2')
 // Explicitly select utilities so future Crime Scene content mods cannot leak into Hyean Minigames 2.
 const modPrefixes = [
     // More Culling references Cloth Config's AutoConfig classes during startup.
-    'cloth-config-',
+    'camera-neoforge-', 'cloth-config-',
     'dynamic-fps-', 'fast-ip-ping-', 'ferritecore-', 'ImmediatelyFast-',
     'iris-', 'koreanify-', 'lithium-', 'moreculling-', 'sodium-'
 ]

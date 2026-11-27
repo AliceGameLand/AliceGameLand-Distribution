@@ -21,7 +21,7 @@ assert.deepEqual(server.modules.find(module => module.type === 'NeoForge'),
 assert.equal(new Set(distribution.servers.map(value => value.id)).size, distribution.servers.length)
 const expectedMods = new Set([
     // Required at runtime even though More Culling does not declare it in its metadata.
-    'cloth-config-',
+    'camera-neoforge-', 'cloth-config-',
     'dynamic-fps-', 'fast-ip-ping-', 'ferritecore-', 'ImmediatelyFast-',
     'iris-', 'koreanify-', 'lithium-', 'moreculling-', 'sodium-'
 ])

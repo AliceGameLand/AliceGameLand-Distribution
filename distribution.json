@@ -1,5 +1,5 @@
 {
-  "version": "1.0.247",
+  "version": "1.0.248",
   "discord": {
     "clientId": "1552647446025216110"
   },
@@ -1687,7 +1687,7 @@
         "largeImageText": "혜안져스 미니게임2",
         "largeImageKey": "https://github.com/AliceGameLand/AliceGameLand-Distribution/releases/download/hyean-minigames-2-v1.0.0/hyean-minigames-2.png"
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "alicehiyam-oracle.dreamcraft.kr:25566",
       "minecraftVersion": "26.2",
       "javaOptions": {
@@ -2020,6 +2020,17 @@
               }
             }
           ]
+        },
+        {
+          "id": "camera-neoforge-1.1.9+26.2.jar",
+          "name": "camera-neoforge-1.1.9+26.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 311509,
+            "MD5": "588608db6f51e3f9f7c3f7fc759aca37",
+            "url": "https://mediafilez.forgecdn.net/files/8657/137/camera-neoforge-1.1.9%2B26.2.jar",
+            "path": "mods/camera-neoforge-1.1.9+26.2.jar"
+          }
         },
         {
           "id": "cloth-config-26.2.155.jar",
